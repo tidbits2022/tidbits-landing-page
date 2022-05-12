@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Gameplay;
+    src: url('../fonts/Gameplay.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body {
+    font-family: Gameplay;
+    color: rgb(0, 36, 128);
+}
+
+h1 {
+    color: blue;
+}

@@ -1,3 +1,4 @@
+{% from "components.html" import newComponent %}
 <head>
     <title>balls_roll</title>
     <link href="../static/css/style.css" rel="stylesheet">
@@ -6,14 +7,8 @@
 <body>
     <h1>test</h1>
 
-    <!-- PLEASE INCLUDE BORDERS/MARGINS INTO YOUR CSS -->
-
-    <!-- newComponent - yt -->
-    {% macro newComponent(text) -%}
-    <div class='big-button'>
-        <p>{{text}}</p>
-    </div>
-    {%- endmacro %} {{ newComponent('Insert Text') }}
+    <!-- Refer to components.html for macros -->
+    {{ newComponent('Insert Text') }}
 
 
 </body>

@@ -6,3 +6,20 @@
     <p>{{text}}</p>
 </div>
 {%- endmacro %} 
+
+<!-- parameters are dictionaries with key-value pairs label: link e.g. "homepage": "index.html"-->
+{% macro navBar(alignLeft, alignRight) %}
+    <nav class="navBar">
+        <ul class="alignLeft">
+            {% for ele in alignLeft %}
+                <li><a href="{{ alignLeft[ele] }}">{{ ele }}</a></li>
+            {% endfor %}
+        </ul>
+        <ul class="alignRight">
+            {% for ele in alignRight %}
+                <li><a href="{{ alignRight[ele] }}">{{ ele }}</a></li>
+            {% endfor %}
+        </ul>
+        
+    </nav>
+{% endmacro %}

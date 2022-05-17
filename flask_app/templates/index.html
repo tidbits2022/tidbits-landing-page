@@ -1,14 +1,18 @@
-{% from "components.html" import newComponent %}
+{% from "components.html" import newComponent, navBar %}
 <head>
     <title>balls_roll</title>
     <link href="../static/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <div>
+        {{ navBar({'Home': '1', 'Notes': '2', 'Game': '3'}, {'Login/Register': '4'}) }}
+    </div>
+    
     <h1>test</h1>
 
-    <!-- Refer to components.html for macros -->
-    {{ newComponent('Insert Text') }}
+    <!-- Refer to components.html for macros -->  
 
+    {{ newComponent('Insert Text') }}
 
 </body>

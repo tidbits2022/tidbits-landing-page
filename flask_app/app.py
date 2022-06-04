@@ -13,6 +13,10 @@ def navpage():
 @app.route('/gfg/<int:page>')
 def gfg(page):
     return render_template('gfg.html', page=page)
+
+@app.route('/profilePage')
+def profilePage():
+    return render_template('profilePage.html')
   
   
 if __name__ == '__main__':

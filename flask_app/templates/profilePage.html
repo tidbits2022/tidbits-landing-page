@@ -1,0 +1,19 @@
+{% from "components.html" import profilePageSmall, profilePageLarge %}
+<head>
+    <title>balls_roll</title>
+    <link href="../static/css/style.css" rel="stylesheet">
+</head>
+
+<body bgcolor="#112242">
+    <div class="container">
+        {{ profilePageLarge() }}
+    </div>
+    <div class="container">
+        {{ profilePageSmall("GAMEID", "748 342 103") }}
+        {{ profilePageSmall("Flair", "Junior College") }}
+    </div>
+    <div class="container">
+        {{ profilePageSmall("Streak", "47 Days") }}
+        {{ profilePageSmall("Level 24", "Uncompleted thing") }}
+    </div>
+</body>

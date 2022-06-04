@@ -23,3 +23,16 @@
         
     </nav>
 {% endmacro %}
+
+<!-- Bottom part of profile page -->
+{% macro profilePageSmall(leftText, rightText) %}
+    <div class="profilePageSmall">
+        <h3>{{ leftText }}: {{ rightText }}</h3>
+    </div>  
+{% endmacro %}
+
+{% macro profilePageLarge() %}
+    <div class="profilePageLarge">
+        Test
+    </div>
+{% endmacro %}

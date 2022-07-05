@@ -4,17 +4,66 @@
     font-weight: bold;
 }
 
+/* This is for the biggest titles */
+.header1 {
+    font-family: Gameplay;
+    font-size: 48.8px;
+    color: rgb(17, 34, 66);
+    text-align: center;
+}
+
 body {
     font-family: Gameplay;
-    color: rgb(0, 36, 128);
+    font-size: 22px;
+    color: rgb(2, 18, 109);
 }
 
-h1 {
-    color: blue;
-}
-
+/* This is the blue button with the white words */
 .big-button {
-    color: green;
+    font-family: Gameplay;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    background: #00205d;
+    padding: 20px;
+    margin: 35px;
+}
+
+/* This is the second largest title for Names */
+.header2 {
+    font-family: Gameplay;
+    font-size: 35px;
+    color: rgb(17, 34, 66);
+    text-align: center;
+    margin: 20px;
+}
+
+/* This is the subtitle to header2 */
+.header3 {
+    font-family: Gameplay;
+    font-size: 25px;
+    color: rgb(17, 34, 66);
+    text-align: center;
+    margin: 20px;
+}
+
+/* This is for the Home buttons on the top */
+.header4 {
+    font-family: Gameplay;
+    font-size: 23px;
+    color: rgb(0, 32, 93);
+    text-align: center;
+    margin: 20px;
+}
+
+/* This is for the login page, username etc */
+.header5 {
+    font-family: Gameplay;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin: 20px;
 }
 
 .navBar {

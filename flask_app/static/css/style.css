@@ -1,70 +1,316 @@
+/* Where to use the classes are on canvas! */
 @font-face {
     font-family: Gameplay;
     src: url('../fonts/Gameplay.ttf') format('truetype');
     font-weight: bold;
 }
-
-/* This is for the biggest titles */
-.header1 {
-    font-family: Gameplay;
-    font-size: 48.8px;
-    color: rgb(17, 34, 66);
-    text-align: center;
+@font-face {
+    font-family: DisposableDroidBB;
+    src: url('../fonts/DisposableDroidBB.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: VT323-Regular;
+    src: url('../fonts/VT323-Regular.ttf') format('truetype');
+    font-weight: bold;
 }
 
 body {
-    font-family: Gameplay;
+    font-family: DisposableDroidBB;
     font-size: 22px;
-    color: rgb(2, 18, 109);
+    color: #00205d;
+    background-color: #edf4ff;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
 }
 
-/* This is the blue button with the white words */
 .big-button {
-    font-family: Gameplay;
+    font-family: DisposableDroidBB;
     font-size: 21px;
     color: white;
-    text-align: center;
+    background-color: #00205d;
     border-radius: 25px;
-    background: #00205d;
-    padding: 20px;
-    margin: 35px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 11px;
+    margin: 10px;
 }
 
-/* This is the second largest title for Names */
-.header2 {
+.titles {
     font-family: Gameplay;
+    font-size: 48.8px;
+    color: #112242;
+    text-align: center;
+    margin: 20px;
+}
+
+.teamnames {
     font-size: 35px;
-    color: rgb(17, 34, 66);
+    color: #112242;
     text-align: center;
-    margin: 20px;
+    margin: 0px;
 }
 
-/* This is the subtitle to header2 */
-.header3 {
-    font-family: Gameplay;
+.teamroles {
+    font-family: VT323-Regular;
     font-size: 25px;
-    color: rgb(17, 34, 66);
+    color: #112242;
     text-align: center;
-    margin: 20px;
+    margin: 0px;
 }
 
-/* This is for the Home buttons on the top */
-.header4 {
-    font-family: Gameplay;
+.navbuttons {
     font-size: 23px;
-    color: rgb(0, 32, 93);
-    text-align: center;
-    margin: 20px;
+    color: #00205d;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 50px;
 }
 
-/* This is for the login page, username etc */
-.header5 {
+.signin {
     font-family: Gameplay;
+    font-size: 50px;
+    color: #edf4ff;
+    text-align: center;
+}
+
+.login {
     font-size: 20px;
     color: white;
     text-align: left;
-    margin: 20px;
+    padding: 5px;
+    margin: 0px;
 }
+
+.signin-button {
+    font-size: 32px;
+    color: white;
+    background-color: #7b96d4;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 50px;
+}
+
+.signin-goo {
+    font-size: 25px;
+    color: white;
+    background-color: rgb(255,255,255,0.5);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.register {
+    font-size: 23px;
+    color: #edf4ff;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.player-s {
+    font-size: 18.8px;
+    color: #00205d;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.player-b {
+    font-family: Gameplay;
+    font-size: 40.2px;
+    color: #02126d;
+    text-align: center;
+    margin: 10px;
+}
+
+.editpp {
+    font-size: 17.9px;
+    color: #00205d;
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.playerinfo-b {
+    font-family: Gameplay;
+    font-size: 17.7px;
+    color: black;
+    text-align: center;
+}
+
+.playerinfo {
+    font-family: Gameplay;
+    font-size: 24px;
+    color: #00205d;
+    text-align: center;
+}
+
+.lvl {
+    font-family: Gameplay;
+    font-size: 19.6px;
+    color: #00205d;
+    text-align: center;
+}
+.lvl-exp {
+    font-family: Gameplay;
+    font-size: 15px;
+    color:#00205d;
+    text-align: center;
+}
+
+.leftbar {
+    font-family: Gameplay;
+    font-size: 9.7px;
+    color: #02126d;
+    background-color: #edf4ff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+#selected1 {background-color: #7b96d4;}
+#selelcted2 {background-color: #70a6ff;}
+
+.leadb-bit {
+    font-family: Gameplay;
+    font-size: 16.2px;
+    color: #02126d;
+    text-align: center;
+}
+
+.leadb-snac {
+    font-family: Gameplay;
+    font-size: 13.2px;
+    color: #02126d;
+    text-align: center;
+}
+
+.leadb-num {
+    font-family: Gameplay;
+    font-size: 15.7px;
+    color: #02126d;
+    text-align: center;
+}
+
+#w-num {color: white;}
+
+.leadb-wnames {
+    font-family: Gameplay;
+    font-size: 13.7px;
+    color: white;
+    text-align: center;
+}
+
+.leadb-bnames {
+    font-family: Gameplay;
+    font-size: 7.6px;
+    color: #02126d;
+    text-align: center;
+}
+
+.playerinv {
+    font-family: Gameplay;
+    font-size: 16.3px;
+    color: #112242;
+    text-align: center;
+}
+
+.itemno-b {
+    font-size: 24.7px;
+    color: #112242;
+    text-align: right;
+}
+
+.itemname {
+    font-family: Gameplay;
+    font-size: 12.5px;
+    color: #00205d;
+    text-align: left;
+}
+
+.itemexp {
+    font-size: 21.3px;
+    color: #02126d;
+    text-align: left;
+}
+
+#underline {text-decoration: underline;}
+
+.trade {
+    font-size: 20.7px;
+    color: #edf4ff;
+    background-color: #70a6ff;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 1px 2px grey;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px 15px;
+}
+
+.use {
+    font-size: 20.7px;
+    color: #edf4ff;
+    background-color: #fbbc05;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 1px 2px grey;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px 15px;
+}
+
+.back {
+    font-size: 20.7px;
+    color: #edf4ff;
+    background-color: #70a6ff;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 1px 2px grey;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px 15px;
+}
+
+.player-sgreyb {
+    font-size: 23px;
+    color: #00205d;
+    background-color: #c3c2bf;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.w-inv {
+    font-family: Gameplay;
+    font-size: 17.2px;
+    color: #edf4ff;
+    text-align: center;
+}
+
+.itemno-g {
+    font-size: 25.7px;
+    color: #484538;
+    text-align: right;
+}
+
+
 
 .navBar {
     width: 80%;

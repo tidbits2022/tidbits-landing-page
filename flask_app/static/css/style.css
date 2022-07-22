@@ -37,6 +37,11 @@ body {
     margin: 10px;
 }
 
+.big-button:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
 .titles {
     font-family: Gameplay;
     font-size: 48.8px;
@@ -96,6 +101,11 @@ body {
     padding: 5px 50px;
 }
 
+.signin-button:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
 .signin-goo {
     font-size: 25px;
     color: white;
@@ -107,6 +117,11 @@ body {
     cursor: pointer;
     padding: 10px 20px;
     margin: 10px;
+}
+
+.signin-goo:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
 }
 
 .register {
@@ -179,6 +194,11 @@ body {
     text-decoration: none;
     cursor: pointer;
     padding: 15px;
+}
+
+.leftbar:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
 }
 
 #selected1 {background-color: #7b96d4;}
@@ -261,6 +281,11 @@ body {
     padding: 3px 15px;
 }
 
+.trade:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
 .use {
     font-size: 20.7px;
     color: #edf4ff;
@@ -283,6 +308,11 @@ body {
     text-decoration: none;
     cursor: pointer;
     padding: 3px 15px;
+}
+
+.back:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
 }
 
 .player-sgreyb {

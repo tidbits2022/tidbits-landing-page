@@ -71,7 +71,13 @@ body {
     text-align: left;
     text-decoration: none;
     cursor: pointer;
+    padding: 10px 20px;
     margin: 50px;
+}
+
+.navbuttons:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
 }
 
 .signin {

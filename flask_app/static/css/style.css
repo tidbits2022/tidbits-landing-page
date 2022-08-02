@@ -17,6 +17,7 @@ body {
     font-family: DisposableDroidBB;
     font-size: 22px;
     color: #00205d;
+    display: inline-block;
     background-color: #edf4ff;
     text-align: left;
     margin: 40px 70px;
@@ -64,10 +65,13 @@ body {
 }
 
 .navbuttons {
+    float: left;
     font-size: 23px;
     color: #00205d;
     text-decoration: none;
     cursor: pointer;
+    z-index: 1;
+    position: relative;
     padding: 10px 20px;
     margin: 20px;
 }
@@ -345,11 +349,6 @@ body {
     text-align: left;
 }
 
-.navBar {
-    width: 100%;
-    float: left;
-}
-
 .leftbody {
     float: left;
     width: 360px;
@@ -372,9 +371,9 @@ body {
     float: right;
     position: absolute;
     background-color: #5270a8;
-    padding: 220px 200px;
+    padding: 210px 185px;
     margin-top: 40px;
-    margin-left: 400px;
+    margin-left: 395px;
     z-index: -1;
 }
 

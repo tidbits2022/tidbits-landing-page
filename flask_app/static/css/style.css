@@ -19,8 +19,8 @@ body {
     color: #00205d;
     background-color: #edf4ff;
     text-align: left;
-    padding: 20px;
-    margin: 20px;
+    margin: 40px 70px;
+    min-width: 1160px;
 }
 
 .big-button {
@@ -34,7 +34,6 @@ body {
     text-decoration: none;
     cursor: pointer;
     padding: 11px;
-    margin: 10px;
 }
 
 .big-button:hover {
@@ -47,7 +46,6 @@ body {
     font-size: 48.8px;
     color: #112242;
     text-align: center;
-    margin: 20px;
 }
 
 .teamnames {
@@ -68,11 +66,10 @@ body {
 .navbuttons {
     font-size: 23px;
     color: #00205d;
-    text-align: left;
     text-decoration: none;
     cursor: pointer;
     padding: 10px 20px;
-    margin: 50px;
+    margin: 20px;
 }
 
 .navbuttons:hover {
@@ -344,13 +341,43 @@ body {
     text-align: right;
 }
 
-
+#txt-align-l {
+    text-align: left;
+}
 
 .navBar {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    float: left;
 }
+
+.leftbody {
+    float: left;
+    width: 360px;
+    margin-top: 30px;
+}
+
+.rightbody {
+    float: left;
+    width: 800px;
+}
+
+.pizzaimage {
+    float: left;
+    position: relative;
+    top: -175px;
+    left: 260px;
+}
+
+#bluebackg {
+    float: right;
+    position: absolute;
+    background-color: #5270a8;
+    padding: 220px 200px;
+    margin-top: 40px;
+    margin-left: 400px;
+    z-index: -1;
+}
+
 .alignRight, .alignLeft {
     margin: 10px;
 }
@@ -391,5 +418,5 @@ body {
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }

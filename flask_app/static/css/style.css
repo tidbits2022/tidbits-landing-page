@@ -34,7 +34,7 @@ body {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    padding: 11px;
+    padding: 11px 25px;
 }
 
 .big-button:hover {
@@ -421,7 +421,8 @@ body {
 }
 
 #aboutuspara{
-    margin-left: 610px;
-    margin-right: 45px;
-    margin-top: 75px;
+    width: 380px;
+    float: right;
+    margin-top: 30px;
+    text-align: justify;
 }

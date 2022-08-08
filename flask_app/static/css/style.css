@@ -421,22 +421,15 @@ body {
 }
 
 #aboutuspara{
-<<<<<<< Updated upstream
     width: 380px;
     float: right;
     margin-top: 30px;
     text-align: justify;
-=======
-    float: right;
-    margin-top: 30px;
-    text-align: justify;
-    width: 380px;
 }
-#aboutustitle{
-    margin-left: 260px;
+#aboutuspic{
+    margin-left: 273px;
 }
 
 #theteambutton{
     margin-left: 327px;
->>>>>>> Stashed changes
 }

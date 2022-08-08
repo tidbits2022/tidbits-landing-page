@@ -24,6 +24,14 @@ body {
     min-width: 1160px;
 }
 
+.navbar {
+    background-color: #edf4ff;
+    height: 85px;
+    position: sticky;
+    top: 0px; 
+    width: 1160px; 
+}
+
 .big-button {
     font-family: DisposableDroidBB;
     font-size: 21px;
@@ -377,6 +385,23 @@ body {
     z-index: -1;
 }
 
+#aboutuspara{
+    width: 380px;
+    float: right;
+    margin-top: 30px;
+    text-align: justify;
+}
+#aboutuspic{
+    margin-left: 273px;
+}
+
+.theteam {
+    float: left;
+    width: 386.6px;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .alignRight, .alignLeft {
     margin: 10px;
 }
@@ -418,18 +443,4 @@ body {
 .container{
     display: flex;
     justify-content: left;
-}
-
-#aboutuspara{
-    width: 380px;
-    float: right;
-    margin-top: 30px;
-    text-align: justify;
-}
-#aboutuspic{
-    margin-left: 273px;
-}
-
-#theteambutton{
-    margin-left: 327px;
 }

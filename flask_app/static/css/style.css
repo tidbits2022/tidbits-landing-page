@@ -1,16 +1,230 @@
 /* Where to use the classes are on canvas! */
+/* use onlinewebfonts.com for font family*/
 @font-face {
-    font-family: Gameplay;
-    src: url('../fonts/Gameplay.ttf') format('truetype');
-    font-weight: bold;
+    font-family: "Gameplay"; 
+    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot"); 
+    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.svg#Gameplay") format("svg"); }
+
+@font-face {
+    font-family: "DisposableDroidBB"; 
+    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot"); 
+    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff") format("woff"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.svg#DisposableDroid BB") format("svg"); 
+    }
+
+@font-face {
+    font-family: "VT323-Regular"; 
+    src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot"); 
+    src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.svg#VT323") format("svg"); 
+    }
+/*
+body {
+    font-family: "DisposableDroidBB";
+    font-size: 22px;
+    color: #00205d;
+    display: inline-block;
+    background-color: #edf4ff; 
+     background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); 
+    text-align: left;
+    margin: 40px 70px;
+    min-width: 1160px;
+    position: absolute;
+    width: 1160px;
+    height: 85px;
 }
-@font-face {
-    font-family: DisposableDroidBB;
-    src: url('../fonts/DisposableDroidBB_bld.ttf') format('truetype');
+*/
+
+/* master divs */
+.container {
+    font-family: "DisposableDroidBB";
+    font-size: 22px;
+    color: #00205d;
+    display: inline-block;
+    background-color: #00205d; 
+    /* background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); */
+    text-align: left;
+   /* margin: 40px 70px;
+    min-width: 1160px; 
+    position: relative; */
+    width: 50%;
+    height: 100%;
+
 }
-@font-face {
-    font-family: VT323-Regular;
-    src: url('../fonts/VT323-Regular.ttf') format('truetype');
+
+.container2 {
+    font-family: "DisposableDroidBB";
+    font-size: 22px;
+    color: #00205d;
+    display: inline-block;
+    background-color: #edf4ff; 
+    /* background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); */
+    text-align: right;
+  /*  margin: 40px 70px; */
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+/* components */
+
+.logo{
+    position:relative; 
+    margin-left: auto;
+  margin-right: auto;
+  top: 25%;
+  bottom:25%;
+  display: block;
+  border: solid 15px #00205d;
+  border-radius: 50%;
+   
+   /* padding-top: 200px;
+    padding-bottom: 300px;
+    padding-right: 170px;
+    padding-left: 850px;
+    */
+}
+
+.googlelogo{
+    position: absolute;
+    margin-top: 5.5%;
+    margin-left: 6%;
+    border: solid 2px white;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.signin {
+    font-family: "Gameplay";
+    font-size: 60px;
+    color: #edf4ff;
+    text-align: center;
+    left: 25%
+}
+
+.login {
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
+
+.fusername{
+    height: 40px;
+}
+
+.fpassword{
+    height: 40px;
+}
+
+.dropdownmenu{
+    height: 150px;
+    width: 150px;
+    border: none;
+    background-color: #edf4ff;
+    position: absolute;
+    top:0;
+     right:0;
+}
+
+
+.signin-button {
+    font-size: 32px;
+    color: white;
+    background-color: #7b96d4;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 50px;
+}
+
+.signin-button:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+.signin-goo {
+    font-size: 25px;
+    color: white;
+    background-color: rgb(255,255,255,0.5);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signin-goo:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+.register {
+    font-size: 23px;
+    color: #edf4ff;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* mini divs within container div*/
+.withincontainer{
+    display: flex;
+  flex-direction: column;
+  position:relative; 
+    margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  bottom:20%;
+  justify-content: center;
+}
+
+.loginclass{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.passwordclass{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.kmliclass{
+display: inline;
+  vertical-align: middle;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.buttonsclass{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.registerclass{
+    display: block;
+  justify-content: right;
+  margin-left: 63%;
+  margin-right: 25%;
+  margin-top: 25%;
+
 }
 
 body {
@@ -89,63 +303,6 @@ body {
     transition: 0.2s;
 }
 
-.signin {
-    font-family: Gameplay;
-    font-size: 50px;
-    color: #edf4ff;
-    text-align: center;
-}
-
-.login {
-    font-size: 20px;
-    color: white;
-    text-align: left;
-    padding: 5px;
-    margin: 0px;
-}
-
-.signin-button {
-    font-size: 32px;
-    color: white;
-    background-color: #7b96d4;
-    border-radius: 10px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 5px 50px;
-}
-
-.signin-button:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-.signin-goo {
-    font-size: 25px;
-    color: white;
-    background-color: rgb(255,255,255,0.5);
-    border-radius: 10px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 10px 20px;
-    margin: 10px;
-}
-
-.signin-goo:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-.register {
-    font-size: 23px;
-    color: #edf4ff;
-    text-align: right;
-    text-decoration: underline;
-    cursor: pointer;
-}
 
 .player-s {
     font-size: 18.8px;
@@ -440,7 +597,3 @@ body {
     width: 72%;
 }
 
-.container{
-    display: flex;
-    justify-content: left;
-}

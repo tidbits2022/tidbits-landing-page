@@ -741,3 +741,1161 @@ body {
     width: 72%;
 }
 
+/* Where to use the classes are on canvas! */
+
+.subinventorycontainer4bottom1{
+    height: 50%;
+    width: 90%;
+    border: 2px solid #112242;
+    margin-top: 10%;
+
+    margin-right: 10%;
+    display: block;
+    position: absolute;
+    align-items: center;
+}
+
+.subinventorycontainer4bottom2{
+    flex-direction: row;
+    position: relative;
+    margin-top: 140%;
+    margin-left: 0px;
+    display: inline-grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 20%;
+    justify-items: center;
+}
+
+
+
+
+/* trading template*/
+/* trading boxes*/
+.tradingcontainermain{
+    height: 70%;
+    width:100%;
+    border: solid 5px #00205d;
+    background-color: #00205d;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: auto;
+    box-shadow: 10px 15px 15px #888888;
+}
+
+.subtradingcontainer1{
+    height:98%;
+    width:13%;
+    border: solid 5px #00205d;
+    background-color: #00205d;
+    position: relative;
+}
+
+.subtradingcontainer2{
+    height:98%;
+    width:65%;
+    border: solid 5px #00205d;
+    border-left-width: 10px;
+    background-color: #edf4ff;
+    margin: auto;
+    position: relative;
+    top:-100%;
+    left:-3.4%;
+    overflow-y: scroll;
+}
+/* width */
+div#subtradingcontainer2::-webkit-scrollbar {
+  width: 40px;
+  margin:auto;
+}
+
+/* Track */
+div#subtradingcontainer2::-webkit-scrollbar-track {
+  background: #edf4ff; 
+  border: solid 10px #00205d;
+  border-top: none;
+  border-bottom: none;
+}
+ 
+/* Handle */
+div#subtradingcontainer2::-webkit-scrollbar-thumb {
+  background: #70A6FF; 
+  border: solid 10px #00205d;
+  border-top: none;
+  border-bottom: none;
+}
+
+/* Handle on hover */
+div#subtradingcontainer2::-webkit-scrollbar-thumb:hover {
+  background: #7B96D4; 
+}
+
+ .subtradingcontainer3{
+    height:6%;
+    width:38%;
+    border: solid 10px #00205d;
+    border-bottom: solid 10px #edf4ff;
+    border-collapse:collapse;
+    background-color: #edf4ff;
+    margin: auto;
+    position: relative;
+    top:-208.6%;
+    left:-5%;
+    
+} 
+
+.subtradingcontainer4{
+    height:98%;
+    width:20%;
+    background-color: #edf4ff;
+    border: solid 5px #00205d;
+    border-top-width:2px;
+    border-left-width: 4px;
+    margin: auto;
+    position: relative;
+    top:-209%;
+    left:39.5%;  
+}
+
+
+/* trading mini components*/
+.tradingleftbarbuttons{
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100%;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 30%;
+}
+
+
+/* inventory template*/
+/* inventory boxes*/
+.inventorycontainermain{
+    height: 70%;
+    width:100%;
+    border: solid 5px #112242;
+    background-color: #112242;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: auto;   
+  box-shadow: 10px 15px 15px #888888;
+}
+
+.subinventorycontainer1{
+    height:98%;
+    width:13%;
+    border: solid 5px #112242;
+    background-color: #112242;
+    position: relative;
+}
+
+.subinventorycontainer2{
+    height:98%;
+    width:65%;
+    border: solid 5px #112242;
+    border-left-width: 10px;
+    background-color: #edf4ff;
+    margin: auto;
+    position: relative;
+    top:-100%;
+    left:-3.4%;
+    overflow-y: scroll;
+}
+/* width */
+div#subinventorycontainer2::-webkit-scrollbar {
+  width: 40px;
+  margin:auto;
+}
+
+/* Track */
+div#subinventorycontainer2::-webkit-scrollbar-track {
+  background: #edf4ff; 
+  border: solid 10px #112242;
+  border-top: none;
+  border-bottom: none;
+}
+ 
+/* Handle */
+div#subinventorycontainer2::-webkit-scrollbar-thumb {
+  background: #70A6FF; 
+  border: solid 10px #112242;
+  border-top: none;
+  border-bottom: none;
+}
+
+/* Handle on hover */
+div#subinventorycontainer2::-webkit-scrollbar-thumb:hover {
+  background: #7B96D4; 
+}
+
+ .subinventorycontainer3{
+    height:6%;
+    width:38%;
+    border: solid 10px #112242;
+    border-bottom: solid 10px #edf4ff;
+    border-collapse:collapse;
+    background-color: #edf4ff;
+    margin: auto;
+    position: relative;
+    top:-208.6%;
+    left:-5%;
+    
+} 
+/*PUT HERE LATER*/
+.subinventorycontainer4{
+    height:98%;
+    width:20%;
+    background-color: #edf4ff;
+    border: solid 5px #112242;
+    border-top-width:2px;
+    border-left-width: 4px;
+    margin: auto;
+    position: relative;
+    top:-209%;
+    left:39.5%;  
+}
+
+.subinventorycontainer4top1{
+     margin: auto;
+    flex-direction: row;
+    width: 125px;
+    display: inline-block;
+    float: right;
+    margin-top: 5%;
+}
+
+.subinventorycontainer4top2{
+    margin: auto;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: block;
+     
+}
+
+.subinventorycontainer4img{
+    margin-right: 10%;    
+}
+
+/* inventory mini components*/
+.inventoryleftbarbuttons{
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0.5%;
+  margin-bottom: 3%;
+  margin-left: 1%;
+  margin-right: 0.4%;
+  height: 100.5%;
+}
+/* inventory objects*/
+/* main table to place all the inventory images*/
+.inventoryobjects{
+    margin-top: 4%;
+    border-spacing: 52px 0px;
+    border-collapse: separate;
+    
+}
+
+
+/* individual inventory objects*/
+.inventory_image_console{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_hank{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_muffin{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_leygreen{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_leypurple{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_pizza{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_burger{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_chickendrum{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_coke{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_pockey{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_mathchemhist{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_bitscoin{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_testtube{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_calender{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.inventory_image_bulb{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.inventorytableitem{
+    padding-bottom: 0px;
+    display: relative;
+}
+
+
+
+
+/* leaderboard template*/
+/* leaderboard boxes*/
+.leaderboardcontainermain{
+    height: 70%;
+    width:100%;
+    border: solid 5px #00205d;
+    background-color: #00205d;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: auto;
+    box-shadow: 10px 15px 15px #888888;
+
+}
+
+.subleaderboardcontainer1{
+    height:98%;
+    width:13%;
+    border: solid 5px #00205d;
+    background-color: #00205d;
+    position: relative;
+}
+
+.subleaderboardcontainer2{
+    height:98%;
+    width:65%;
+    border: solid 5px #00205d;
+    border-left-width: 10px;
+    background-color: #edf4ff;
+    margin: auto;
+    position: relative;
+    top:-100%;
+    left:-3.4%;
+    overflow-y: scroll;
+}
+/* width */
+div#subleaderboardcontainer2::-webkit-scrollbar {
+  width: 40px;
+  margin:auto;
+}
+
+/* Track */
+div#subleaderboardcontainer2::-webkit-scrollbar-track {
+  background: #edf4ff; 
+  border: solid 10px #00205d;
+  border-top: none;
+  border-bottom: none;
+}
+ 
+/* Handle */
+div#subleaderboardcontainer2::-webkit-scrollbar-thumb {
+  background: #70A6FF; 
+  border: solid 10px #00205d;
+  border-top: none;
+  border-bottom: none;
+}
+
+/* Handle on hover */
+div#subleaderboardcontainer2::-webkit-scrollbar-thumb:hover {
+  background: #7B96D4; 
+}
+
+ .subleaderboardcontainer3{
+    height:6%;
+    width:38%;
+    border: solid 10px #00205d;
+    border-bottom: solid 10px #edf4ff;
+    border-collapse:collapse;
+    background-color: #edf4ff;
+    margin: auto;
+    position: relative;
+    top:-208.6%;
+    left:-5%;
+    
+} 
+
+.subleaderboardcontainer4{
+    height:98%;
+    width:20%;
+    background-color: #edf4ff;
+    border: solid 5px #00205d;
+    border-top-width:2px;
+    border-left-width: 4px;
+    margin: auto;
+    position: relative;
+    top:-209%;
+    left:39.5%;  
+}
+
+/* leaderboard mini components*/
+.leaderboardleftbarbuttons{
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100%;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 30%;
+}
+
+
+
+
+
+
+/* use onlinewebfonts.com for font family*/
+@font-face {
+    font-family: "Gameplay"; 
+    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot"); 
+    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.svg#Gameplay") format("svg"); }
+
+@font-face {
+    font-family: "DisposableDroidBB"; 
+    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot"); 
+    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff") format("woff"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.svg#DisposableDroid BB") format("svg"); 
+    }
+
+@font-face {
+    font-family: "VT323-Regular"; 
+    src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot"); 
+    src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.svg#VT323") format("svg"); 
+    }
+/*
+body {
+    font-family: "DisposableDroidBB";
+    font-size: 22px;
+    color: #00205d;
+    display: inline-block;
+    background-color: #edf4ff; 
+     background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); 
+    text-align: left;
+    margin: 40px 70px;
+    min-width: 1160px;
+    position: absolute;
+    width: 1160px;
+    height: 85px;
+}
+*/
+
+/* master divs */
+.container {
+    font-family: "DisposableDroidBB";
+    font-size: 22px;
+    color: #00205d;
+    display: inline-block;
+    background-color: #00205d; 
+    /* background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); */
+    text-align: left;
+   /* margin: 40px 70px;
+    min-width: 1160px; 
+    position: relative; */
+    width: 50%;
+    height: 100%;
+
+}
+
+.container2 {
+    font-family: "DisposableDroidBB";
+    font-size: 22px;
+    color: #00205d;
+    display: inline-block;
+    background-color: #edf4ff; 
+    /* background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); */
+    text-align: right;
+  /*  margin: 40px 70px; */
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+/* components */
+
+.logo{
+    position:relative; 
+    margin-left: auto;
+  margin-right: auto;
+  top: 25%;
+  bottom:25%;
+  display: block;
+  border: solid 15px #00205d;
+  border-radius: 50%;
+   
+   /* padding-top: 200px;
+    padding-bottom: 300px;
+    padding-right: 170px;
+    padding-left: 850px;
+    */
+}
+
+.googlelogo{
+    position: absolute;
+    margin-top: 5.5%;
+    margin-left: 6%;
+    border: solid 2px white;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.signin {
+    font-family: "Gameplay";
+    font-size: 60px;
+    color: #edf4ff;
+    text-align: center;
+    left: 25%
+}
+
+.login {
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
+
+.fusername{
+    height: 40px;
+    font-family: "DisposableDroidBB";
+    font-size: 20px;
+}
+
+.fpassword{
+    height: 40px;
+    font-family: "DisposableDroidBB";
+    font-size: 20px;
+}
+
+.dropdownmenu{
+    height: 150px;
+    width: 150px;
+    border: none;
+    background-color: #edf4ff;
+    position: absolute;
+    top:0;
+     right:0;
+}
+
+
+.signin-button {
+    font-size: 32px;
+    color: white;
+    background-color: #7b96d4;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 50px;
+}
+
+.signin-button:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+.signin-goo {
+    font-size: 25px;
+    color: white;
+    background-color: rgb(255,255,255,0.5);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signin-goo:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+.register {
+    font-size: 23px;
+    color: #edf4ff;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* mini divs within container div*/
+.withincontainer{
+    display: flex;
+  flex-direction: column;
+  position:relative; 
+    margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  bottom:20%;
+  justify-content: center;
+}
+
+.loginclass{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.passwordclass{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.kmliclass{
+display: inline;
+  vertical-align: middle;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.buttonsclass{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.registerclass{
+    display: block;
+  justify-content: right;
+  margin-left: 63%;
+  margin-right: 25%;
+  margin-top: 25%;
+
+}
+
+body {
+    font-family: DisposableDroidBB;
+    font-size: 22px;
+    color: #00205d;
+    background-color: #edf4ff;
+    display: inline-block;
+    text-align: left;
+    margin: 40px 70px;
+    min-width: 1160px;
+}
+
+
+
+
+.navbar {
+    background-color: #edf4ff;
+    height: 85px;
+    position: sticky;
+    top: 0px; 
+    width: 1160px; 
+    font-family: "DisposableDroidBB";
+}
+
+.big-button {
+    font-family: DisposableDroidBB;
+    font-size: 21px;
+    color: white;
+    background-color: #00205d;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 11px 25px;
+}
+
+.big-button:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+.titles {
+    font-family: Gameplay;
+    font-size: 48.8px;
+    color: #112242;
+    text-align: center;
+}
+
+.teamnames {
+    font-size: 35px;
+    color: #112242;
+    text-align: center;
+    margin: 0px;
+}
+
+.teamroles {
+    font-family: VT323-Regular;
+    font-size: 25px;
+    color: #112242;
+    text-align: center;
+    margin: 0px;
+}
+
+.navbuttons {
+    float: left;
+    font-size: 23px;
+    color: #00205d;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.navbuttons:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+
+.player-s {
+    font-size: 18.8px;
+    color: #00205d;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.player-b {
+    font-family: Gameplay;
+    font-size: 40.2px;
+    color: #02126d;
+    text-align: center;
+    margin: 10px;
+}
+
+.editpp {
+    font-size: 17.9px;
+    color: #00205d;
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.playerinfo-b {
+    font-family: Gameplay;
+    font-size: 17.7px;
+    color: black;
+    text-align: center;
+}
+
+.playerinfo {
+    font-family: Gameplay;
+    font-size: 24px;
+    color: #00205d;
+    text-align: center;
+}
+
+.lvl {
+    font-family: Gameplay;
+    font-size: 19.6px;
+    color: #00205d;
+    text-align: center;
+}
+.lvl-exp {
+    font-family: Gameplay;
+    font-size: 15px;
+    color:#00205d;
+    text-align: center;
+}
+
+.leftbarleaderboard {
+    font-family: Gameplay;
+    font-size: 15px;
+    color: #02126d;
+    background-color: #edf4ff;
+    border-color: #112242;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px;
+    height: 50%;
+}
+
+.leftbarleaderboard:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+.leftbarinventory {
+    font-family: Gameplay;
+    font-size: 15px;
+    color: #02126d;
+    background-color: #edf4ff;
+    border-color: #112242;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px;
+    height: 50%;
+}
+
+.leftbarinventory:hover {
+    background-color: #70A6FF;
+    transition: 0.2s;
+}
+
+.leftbartrading {
+    font-family: Gameplay;
+    font-size: 15px;
+    color: #02126d;
+    background-color: #edf4ff;
+    border-color: #112242;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px;
+    height: 50%;
+}
+
+.leftbartrading:hover {
+    background-color: #7B96D4;
+    transition: 0.2s;
+}
+
+#selected1 {background-color: #7b96d4;}
+#selelcted2 {background-color: #70a6ff;}
+
+.leadb-bit {
+    font-family: Gameplay;
+    font-size: 20px;
+    color: #02126d;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.leadb-snac {
+    font-family: Gameplay;
+    font-size: 13.2px;
+    color: #02126d;
+    text-align: center;
+}
+
+.leadb-num {
+    font-family: Gameplay;
+    font-size: 15.7px;
+    color: #02126d;
+    text-align: center;
+}
+
+#w-num {color: white;}
+
+.leadb-wnames {
+    font-family: Gameplay;
+    font-size: 13.7px;
+    color: white;
+    text-align: center;
+}
+
+.leadb-bnames {
+    font-family: Gameplay;
+    font-size: 7.6px;
+    color: #02126d;
+    text-align: center;
+}
+
+.playerinv {
+    font-family: Gameplay;
+    font-size: 20px;
+    color: #112242;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.itemno-b {
+    font-size: 25px;
+    color: #112242;
+    text-align: right;
+    margin-top: 0px;
+}
+
+.itemname {
+    font-family: Gameplay;
+    font-size: 14px;
+    color: #00205d;
+    text-align: left;
+    top: -100%;
+    display: block;
+}
+
+
+
+.itemexp {
+    font-size: 25px;
+    color: #02126d;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.itemexp2 {
+    font-size: 25px;
+    color: #02126d;
+    display: inline-block;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#underline {text-decoration: underline;}
+
+.trade {
+    font-family: DisposableDroidBB;
+    font-size: 25px;
+    color: #edf4ff;
+    background-color: #70a6ff;
+    display: inline;
+    text-align: center;
+    text-shadow: 1.5px 1.5px rgb(0, 0, 0, 0.4);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px 15px;
+    height: 40px;
+    width: 100px;
+}
+
+.trade:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+.use {
+    font-family: DisposableDroidBB;
+    font-size: 25px;
+    color: #edf4ff;
+    background-color: #fbbc05;
+    display: inline;
+    text-align: center;
+    text-shadow: 1.5px 1.5px rgb(0, 0, 0, 0.4);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px 15px;
+    height: 40px;
+    width: 100px;
+}
+
+.use:hover {
+    background-color: #CB9803;
+    transition: 0.2s;
+}
+
+.back {
+    font-size: 20.7px;
+    color: #edf4ff;
+    background-color: #70a6ff;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 1.5px 1.5px rgb(0, 0, 0, 0.4);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px 15px;
+}
+
+.back:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+.player-sgreyb {
+    font-size: 23px;
+    color: #00205d;
+    background-color: #c3c2bf;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.w-inv {
+    font-family: Gameplay;
+    font-size: 17.2px;
+    color: #edf4ff;
+    text-align: center;
+}
+
+.itemno-g {
+    font-size: 25.7px;
+    color: #484538;
+    text-align: right;
+}
+
+#txt-align-l {
+    text-align: left;
+}
+
+.leftbody {
+    float: left;
+    width: 360px;
+    margin-top: 30px;
+}
+
+.rightbody {
+    float: left;
+    width: 800px;
+}
+
+.pizzaimage {
+    float: left;
+    position: relative;
+    top: -175px;
+    left: 260px;
+}
+
+#bluebackg {
+    float: right;
+    position: absolute;
+    background-color: #5270a8;
+    padding: 210px 185px;
+    margin-top: 40px;
+    margin-left: 395px;
+    z-index: -1;
+}
+
+#aboutuspara{
+    width: 380px;
+    float: right;
+    margin-top: 30px;
+    text-align: justify;
+}
+#aboutuspic{
+    margin-left: 273px;
+}
+
+.theteam {
+    float: left;
+    width: 386.6px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.alignRight, .alignLeft {
+    margin: 10px;
+}
+.alignRight li, .alignLeft li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.alignRight li a, .alignLeft li a {
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.alignRight li a:hover, .alignLeft li a:hover {
+    background-color: cyan;
+}
+
+.profilePageSmall, .profilePageLarge {
+    text-align: center;
+    margin: 1%;
+    background-color: #FAE7E0;
+    border-radius: 25px;
+}
+.profilePageSmall {
+    padding-top: 2%; padding-bottom: 2%;
+    padding-left: 0.5%; padding-right: 0.5%;
+    width: 35%;
+}
+
+.profilePageLarge {
+    height: 200px;
+    width: 72%;
+}

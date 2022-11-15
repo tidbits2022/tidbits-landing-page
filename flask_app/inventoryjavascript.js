@@ -42,7 +42,7 @@ function functionforinventoryitem(elem){
 }
 
 
-
+let storedinventoryitemvalue = 0
 //toggle between the different inventory buttons
 const inventoryidarray = ["allbtn", 'sweetsbtn', 'savourybtn', 'petsbtn', 'materialbtn', 'limitededitionbtn']
 
@@ -51,6 +51,7 @@ function functionforinventory(elem){
         if (document.getElementById != elem.id){
             let i = 0;
             for (i=0; i<inventoryidarray.length; i++){
+                storedinventoryitemvalue = i
                 if (i!=inventoryidarray.indexOf(elem.id)){
                     document.getElementById(inventoryidarray[i]).style.backgroundColor = "rgb(237, 244, 255)";
                     
@@ -67,42 +68,60 @@ function functionforinventory(elem){
 
 
 
-                    var table = document.getElementById("inventoryobjects");
-                    if (elem.id != "allbtn"){
+                    var originaltable = document.getElementById("inventoryobjects");
 
 
-
-                        
-
+                    if (elem.id != "allbtn"){        
 //below function to filter items according to the id they are assigned to
-       for (var a = 0; a<table.rows.length; a++) {
-        for (var b = 0; b<table.rows[0].cells.length; b++) {
-    
-     if (table.rows[a].cells[b].id == elem.id){
-         table.rows[a].cells[b].style.visibility = "visible";
-     } else {
-         table.rows[a].cells[b].style.visibility = "hidden";
-     }
-     
-   }  
-}
-               
 
-            } else{
-                //ensure no more filtering occurs where "all" button is pressed again
-                for (var a = 0; a<table.rows.length; a++) {
-                for (var b = 0; b<table.rows[0].cells.length; b++) {
+//create a new array based on filtered items
+       var temp = Array.from(document.getElementsByClassName(elem.id));
+        for (var a=0; a<temp.length; a++) {
+            temp[a].style.visibility = "visible";
+        }
+
+
+//create an array for non filtered items      
+      var notinsidetemp = [];
+         for (var b = 0; b<originaltable.rows.length; b++) {
+        for (var c = 0; c<originaltable.rows[0].cells.length; c++) {
+            if (temp.includes(originaltable.rows[b].cells[c])){
+                
+            } else {
+                notinsidetemp.push(originaltable.rows[b].cells[c]);
+            }
+        }
+         }
+
+//do not display non-filtered items
+        for (var e=0; e<notinsidetemp.length; e++) {
+            notinsidetemp[e].style.visibility = "hidden";
+        }
+         
      
-                table.rows[a].cells[b].style.visibility = "visible";
+        
+       
+
+
             
+            } else {
+                //ensure no more filtering occurs where "all" button is pressed again
+                for (var a = 0; a<originaltable.rows.length; a++) {
+                for (var b = 0; b<originaltable.rows[0].cells.length; b++) {
+     
+                originaltable.rows[a].cells[b].style.visibility = "visible";
+                document.getElementById("itemnameinventory").style.visibility = "visible";
+                    document.getElementById("subinventorycontainer4img").style.visibility = "visible";
+                    document.getElementById("itemname").style.visibility = "visible";
+                    document.getElementById("subinventorycontainer4bottom1").style.visibility = "visible";
      
         }  
     }
             }
-            }
                       
             }
         } 
+}
 }
 
 

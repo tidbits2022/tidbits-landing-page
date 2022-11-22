@@ -18,6 +18,5 @@ def gfg(page):
 def profilePage():
     return render_template('profilePage.html')
   
-  
 if __name__ == '__main__':
     app.run()

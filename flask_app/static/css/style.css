@@ -16,22 +16,6 @@
     src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot"); 
     src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.svg#VT323") format("svg"); 
     }
-/*
-body {
-    font-family: "DisposableDroidBB";
-    font-size: 22px;
-    color: #00205d;
-    display: inline-block;
-    background-color: #edf4ff; 
-     background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); 
-    text-align: left;
-    margin: 40px 70px;
-    min-width: 1160px;
-    position: absolute;
-    width: 1160px;
-    height: 85px;
-}
-*/
 
 /* master divs */
 .container {
@@ -226,6 +210,7 @@ display: inline;
 
 }
 
+/* General style of the pages */
 body {
     font-family: DisposableDroidBB;
     font-size: 22px;
@@ -243,46 +228,6 @@ body {
     position: sticky;
     top: 0px; 
     width: 1160px; 
-}
-
-.big-button {
-    font-family: DisposableDroidBB;
-    font-size: 21px;
-    color: white;
-    background-color: #00205d;
-    border-radius: 25px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 11px 25px;
-}
-
-.big-button:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-.titles {
-    font-family: Gameplay;
-    font-size: 48.8px;
-    color: #112242;
-    text-align: center;
-}
-
-.teamnames {
-    font-size: 35px;
-    color: #112242;
-    text-align: center;
-    margin: 0px;
-}
-
-.teamroles {
-    font-family: VT323-Regular;
-    font-size: 25px;
-    color: #112242;
-    text-align: center;
-    margin: 0px;
 }
 
 .navbuttons {
@@ -339,6 +284,120 @@ body {
     display: block;
 }
 
+.scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #70a6ff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5270a8;
+}
+
+.scrolldiv { 
+    height: 380px;
+    position: relative; 
+    float: right; 
+    right: 310px; 
+    border-left: 10px solid #112242;
+    z-index: 3;
+}
+
+.titles {
+    font-family: Gameplay;
+    font-size: 48.8px;
+    color: #112242;
+    text-align: center;
+}
+
+.big-button {
+    font-family: DisposableDroidBB;
+    font-size: 21px;
+    color: white;
+    background-color: #00205d;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 11px 25px;
+}
+
+.big-button:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+/* Canvas: Page 2 - LP1 (homepage.html) */
+.leftbody {
+    float: left;
+    width: 360px;
+    margin-top: 30px;
+}
+
+.rightbody {
+    float: left;
+    width: 800px;
+}
+
+.pizzaimage {
+    float: left;
+    position: relative;
+    top: -175px;
+    left: 295px;
+}
+
+#bluebackg {
+    float: right;
+    position: absolute;
+    background-color: #5270a8;
+    padding: 210px 185px;
+    margin-top: 40px;
+    margin-left: 430px;
+    z-index: -1;
+}
+
+/* Canvas: Page 3 - LP2 (aboutus.html) */
+#aboutuspara{
+    width: 380px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+/* Canvas: Page 4 - LP3 (the_team.html) */
+.teamnames {
+    font-size: 35px;
+    color: #112242;
+    text-align: center;
+    margin: 0px;
+}
+
+.teamroles {
+    font-family: VT323-Regular;
+    font-size: 25px;
+    color: #112242;
+    text-align: center;
+    margin: 0px;
+}
+
+.theteam {
+    float: left;
+    width: 386.6px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* REDO PAGE 9, 10 */
 .player-s {
     font-size: 18.8px;
     color: #00205d;
@@ -391,6 +450,7 @@ body {
     text-align: center;
 }
 
+/* Canvas: Page 11 - leaderboard */
 .leftbar {
     font-family: Gameplay;
     font-size: 9.7px;
@@ -450,6 +510,7 @@ body {
     text-align: center;
 }
 
+/* Canvas: Page 13 - current inventories (curr_inv.html) | Page 14 - 2 inventories */
 .playerinv {
     font-family: Gameplay;
     font-size: 16.3px;
@@ -525,78 +586,6 @@ body {
 .back:hover {
     background-color: #5270a8;
     transition: 0.2s;
-}
-
-.player-sgreyb {
-    font-size: 23px;
-    color: #00205d;
-    background-color: #c3c2bf;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 5px;
-}
-
-.w-inv {
-    font-family: Gameplay;
-    font-size: 17.2px;
-    color: #edf4ff;
-    text-align: center;
-}
-
-.itemno-g {
-    font-size: 25.7px;
-    color: #484538;
-    text-align: right;
-}
-
-#txt-align-l {
-    text-align: left;
-}
-
-.leftbody {
-    float: left;
-    width: 360px;
-    margin-top: 30px;
-}
-
-.rightbody {
-    float: left;
-    width: 800px;
-}
-
-.pizzaimage {
-    float: left;
-    position: relative;
-    top: -175px;
-    left: 260px;
-}
-
-#bluebackg {
-    float: right;
-    position: absolute;
-    background-color: #5270a8;
-    padding: 210px 185px;
-    margin-top: 40px;
-    margin-left: 395px;
-    z-index: -1;
-}
-
-#aboutuspara{
-    width: 380px;
-    float: right;
-    margin-top: 30px;
-    text-align: justify;
-}
-#aboutuspic{
-    margin-left: 273px;
-}
-
-.theteam {
-    float: left;
-    width: 386.6px;
-    text-align: center;
-    margin-top: 40px;
 }
 
 .inv_title {
@@ -676,32 +665,31 @@ body {
     z-index: 3;
 }
 
-.scroll {
-    overflow-y: scroll;
-    overflow-x: hidden;
+/* Page 15 - draft4 inventories */
+.player-sgreyb {
+    font-size: 23px;
+    color: #00205d;
+    background-color: #c3c2bf;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
 }
 
-::-webkit-scrollbar {
-    width: 10px
+.w-inv {
+    font-family: Gameplay;
+    font-size: 17.2px;
+    color: #edf4ff;
+    text-align: center;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #70a6ff;
-    border-radius: 5px;
+.itemno-g {
+    font-size: 25.7px;
+    color: #484538;
+    text-align: right;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: #5270a8;
-}
-
-.scrolldiv { 
-    height: 380px;
-    position: relative; 
-    float: right; 
-    right: 310px; 
-    border-left: 10px solid #112242;
-    z-index: 3;
-}
+/* Not too sure where these are meant for for now */
 
 .alignRight, .alignLeft {
     margin: 10px;
@@ -1214,688 +1202,4 @@ div#subleaderboardcontainer2::-webkit-scrollbar-thumb:hover {
   margin-left: 10%;
   margin-right: 10%;
   height: 30%;
-}
-
-
-
-
-
-
-/* use onlinewebfonts.com for font family*/
-@font-face {
-    font-family: "Gameplay"; 
-    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot"); 
-    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.svg#Gameplay") format("svg"); }
-
-@font-face {
-    font-family: "DisposableDroidBB"; 
-    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot"); 
-    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff") format("woff"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.svg#DisposableDroid BB") format("svg"); 
-    }
-
-@font-face {
-    font-family: "VT323-Regular"; 
-    src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot"); 
-    src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.svg#VT323") format("svg"); 
-    }
-/*
-body {
-    font-family: "DisposableDroidBB";
-    font-size: 22px;
-    color: #00205d;
-    display: inline-block;
-    background-color: #edf4ff; 
-     background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); 
-    text-align: left;
-    margin: 40px 70px;
-    min-width: 1160px;
-    position: absolute;
-    width: 1160px;
-    height: 85px;
-}
-*/
-
-/* master divs */
-.container {
-    font-family: "DisposableDroidBB";
-    font-size: 22px;
-    color: #00205d;
-    display: inline-block;
-    background-color: #00205d; 
-    /* background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); */
-    text-align: left;
-   /* margin: 40px 70px;
-    min-width: 1160px; 
-    position: relative; */
-    width: 50%;
-    height: 100%;
-
-}
-
-.container2 {
-    font-family: "DisposableDroidBB";
-    font-size: 22px;
-    color: #00205d;
-    display: inline-block;
-    background-color: #edf4ff; 
-    /* background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); */
-    text-align: right;
-  /*  margin: 40px 70px; */
-    width: 50%;
-    height: 100%;
-    float: right;
-    position: relative;
-}
-
-/* components */
-
-.logo{
-    position:relative; 
-    margin-left: auto;
-  margin-right: auto;
-  top: 25%;
-  bottom:25%;
-  display: block;
-  border: solid 15px #00205d;
-  border-radius: 50%;
-   
-   /* padding-top: 200px;
-    padding-bottom: 300px;
-    padding-right: 170px;
-    padding-left: 850px;
-    */
-}
-
-.googlelogo{
-    position: absolute;
-    margin-top: 5.5%;
-    margin-left: 6%;
-    border: solid 2px white;
-    border-radius: 50%;
-    background-color: white;
-}
-
-
-.signin {
-    font-family: "Gameplay";
-    font-size: 60px;
-    color: #edf4ff;
-    text-align: center;
-    left: 25%
-}
-
-.login {
-    font-size: 25px;
-    color: white;
-    text-align: left;
-    padding: 5px;
-    margin: 0px;
-}
-
-.fusername{
-    height: 40px;
-    font-family: "DisposableDroidBB";
-    font-size: 20px;
-}
-
-.fpassword{
-    height: 40px;
-    font-family: "DisposableDroidBB";
-    font-size: 20px;
-}
-
-.dropdownmenu{
-    height: 150px;
-    width: 150px;
-    border: none;
-    background-color: #edf4ff;
-    position: absolute;
-    top:0;
-     right:0;
-}
-
-
-.signin-button {
-    font-size: 32px;
-    color: white;
-    background-color: #7b96d4;
-    border-radius: 10px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 5px 50px;
-}
-
-.signin-button:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-.signin-goo {
-    font-size: 25px;
-    color: white;
-    background-color: rgb(255,255,255,0.5);
-    border-radius: 10px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 10px 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.signin-goo:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-.register {
-    font-size: 23px;
-    color: #edf4ff;
-    text-align: right;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-
-/* mini divs within container div*/
-.withincontainer{
-    display: flex;
-  flex-direction: column;
-  position:relative; 
-    margin-left: auto;
-  margin-right: auto;
-  top: 20%;
-  bottom:20%;
-  justify-content: center;
-}
-
-.loginclass{
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-.passwordclass{
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-.kmliclass{
-display: inline;
-  vertical-align: middle;
-  justify-content: center;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-.buttonsclass{
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-.registerclass{
-    display: block;
-  justify-content: right;
-  margin-left: 63%;
-  margin-right: 25%;
-  margin-top: 25%;
-
-}
-
-body {
-    font-family: DisposableDroidBB;
-    font-size: 22px;
-    color: #00205d;
-    background-color: #edf4ff;
-    display: inline-block;
-    text-align: left;
-    margin: 40px 70px;
-    min-width: 1160px;
-}
-
-
-
-
-.navbar {
-    background-color: #edf4ff;
-    height: 85px;
-    position: sticky;
-    top: 0px; 
-    width: 1160px; 
-    font-family: "DisposableDroidBB";
-}
-
-.big-button {
-    font-family: DisposableDroidBB;
-    font-size: 21px;
-    color: white;
-    background-color: #00205d;
-    border-radius: 25px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 11px 25px;
-}
-
-.big-button:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-.titles {
-    font-family: Gameplay;
-    font-size: 48.8px;
-    color: #112242;
-    text-align: center;
-}
-
-.teamnames {
-    font-size: 35px;
-    color: #112242;
-    text-align: center;
-    margin: 0px;
-}
-
-.teamroles {
-    font-family: VT323-Regular;
-    font-size: 25px;
-    color: #112242;
-    text-align: center;
-    margin: 0px;
-}
-
-.navbuttons {
-    float: left;
-    font-size: 23px;
-    color: #00205d;
-    text-decoration: none;
-    cursor: pointer;
-    z-index: 1;
-    position: relative;
-    padding: 10px 20px;
-    margin: 20px;
-}
-
-.navbuttons:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-
-.player-s {
-    font-size: 18.8px;
-    color: #00205d;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    margin: 5px;
-}
-
-.player-b {
-    font-family: Gameplay;
-    font-size: 40.2px;
-    color: #02126d;
-    text-align: center;
-    margin: 10px;
-}
-
-.editpp {
-    font-size: 17.9px;
-    color: #00205d;
-    text-align: left;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.playerinfo-b {
-    font-family: Gameplay;
-    font-size: 17.7px;
-    color: black;
-    text-align: center;
-}
-
-.playerinfo {
-    font-family: Gameplay;
-    font-size: 24px;
-    color: #00205d;
-    text-align: center;
-}
-
-.lvl {
-    font-family: Gameplay;
-    font-size: 19.6px;
-    color: #00205d;
-    text-align: center;
-}
-.lvl-exp {
-    font-family: Gameplay;
-    font-size: 15px;
-    color:#00205d;
-    text-align: center;
-}
-
-.leftbarleaderboard {
-    font-family: Gameplay;
-    font-size: 15px;
-    color: #02126d;
-    background-color: #edf4ff;
-    border-color: #112242;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 15px;
-    height: 50%;
-}
-
-.leftbarleaderboard:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-.leftbarinventory {
-    font-family: Gameplay;
-    font-size: 15px;
-    color: #02126d;
-    background-color: #edf4ff;
-    border-color: #112242;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 15px;
-    height: 50%;
-}
-
-.leftbarinventory:hover {
-    background-color: #70A6FF;
-    transition: 0.2s;
-}
-
-.leftbartrading {
-    font-family: Gameplay;
-    font-size: 15px;
-    color: #02126d;
-    background-color: #edf4ff;
-    border-color: #112242;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 15px;
-    height: 50%;
-}
-
-.leftbartrading:hover {
-    background-color: #7B96D4;
-    transition: 0.2s;
-}
-
-#selected1 {background-color: #7b96d4;}
-#selelcted2 {background-color: #70a6ff;}
-
-.leadb-bit {
-    font-family: Gameplay;
-    font-size: 20px;
-    color: #02126d;
-    text-align: center;
-    margin-top: 2%;
-}
-
-.leadb-snac {
-    font-family: Gameplay;
-    font-size: 13.2px;
-    color: #02126d;
-    text-align: center;
-}
-
-.leadb-num {
-    font-family: Gameplay;
-    font-size: 15.7px;
-    color: #02126d;
-    text-align: center;
-}
-
-#w-num {color: white;}
-
-.leadb-wnames {
-    font-family: Gameplay;
-    font-size: 13.7px;
-    color: white;
-    text-align: center;
-}
-
-.leadb-bnames {
-    font-family: Gameplay;
-    font-size: 7.6px;
-    color: #02126d;
-    text-align: center;
-}
-
-.playerinv {
-    font-family: Gameplay;
-    font-size: 20px;
-    color: #112242;
-    text-align: center;
-    margin-top: 2%;
-}
-
-.itemno-b {
-    font-size: 25px;
-    color: #112242;
-    text-align: right;
-    margin-top: 0px;
-}
-
-.itemname {
-    font-family: Gameplay;
-    font-size: 14px;
-    color: #00205d;
-    text-align: left;
-    top: -100%;
-    display: block;
-}
-
-
-
-.itemexp {
-    font-size: 25px;
-    color: #02126d;
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    display: inline-block;
-}
-
-.itemexp2 {
-    font-size: 25px;
-    color: #02126d;
-    display: inline-block;
-
-    margin-left: 5%;
-    margin-right: 5%;
-
-}
-
-#underline {text-decoration: underline;}
-
-.trade {
-    font-family: DisposableDroidBB;
-    font-size: 25px;
-    color: #edf4ff;
-    background-color: #70a6ff;
-    display: inline;
-    text-align: center;
-    text-shadow: 1.5px 1.5px rgb(0, 0, 0, 0.4);
-    text-decoration: none;
-    cursor: pointer;
-    padding: 3px 15px;
-    height: 40px;
-    width: 100px;
-}
-
-.trade:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-.use {
-    font-family: DisposableDroidBB;
-    font-size: 25px;
-    color: #edf4ff;
-    background-color: #fbbc05;
-    display: inline;
-    text-align: center;
-    text-shadow: 1.5px 1.5px rgb(0, 0, 0, 0.4);
-    text-decoration: none;
-    cursor: pointer;
-    padding: 3px 15px;
-    height: 40px;
-    width: 100px;
-}
-
-.use:hover {
-    background-color: #CB9803;
-    transition: 0.2s;
-}
-
-.back {
-    font-size: 20.7px;
-    color: #edf4ff;
-    background-color: #70a6ff;
-    display: inline-block;
-    text-align: center;
-    text-shadow: 1.5px 1.5px rgb(0, 0, 0, 0.4);
-    text-decoration: none;
-    cursor: pointer;
-    padding: 3px 15px;
-}
-
-.back:hover {
-    background-color: #5270a8;
-    transition: 0.2s;
-}
-
-.player-sgreyb {
-    font-size: 23px;
-    color: #00205d;
-    background-color: #c3c2bf;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 5px;
-}
-
-.w-inv {
-    font-family: Gameplay;
-    font-size: 17.2px;
-    color: #edf4ff;
-    text-align: center;
-}
-
-.itemno-g {
-    font-size: 25.7px;
-    color: #484538;
-    text-align: right;
-}
-
-#txt-align-l {
-    text-align: left;
-}
-
-.leftbody {
-    float: left;
-    width: 360px;
-    margin-top: 30px;
-}
-
-.rightbody {
-    float: left;
-    width: 800px;
-}
-
-.pizzaimage {
-    float: left;
-    position: relative;
-    top: -175px;
-    left: 260px;
-}
-
-#bluebackg {
-    float: right;
-    position: absolute;
-    background-color: #5270a8;
-    padding: 210px 185px;
-    margin-top: 40px;
-    margin-left: 395px;
-    z-index: -1;
-}
-
-#aboutuspara{
-    width: 380px;
-    float: right;
-    margin-top: 30px;
-    text-align: justify;
-}
-#aboutuspic{
-    margin-left: 273px;
-}
-
-.theteam {
-    float: left;
-    width: 386.6px;
-    text-align: center;
-    margin-top: 40px;
-}
-
-.alignRight, .alignLeft {
-    margin: 10px;
-}
-.alignRight li, .alignLeft li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.alignRight li a, .alignLeft li a {
-    text-decoration: none;
-    border-radius: 10px;
-    display: block;
-    width: 100%;
-    height: 100%;
-    font-size: 20px;
-}
-
-.alignRight li a:hover, .alignLeft li a:hover {
-    background-color: cyan;
-}
-
-.profilePageSmall, .profilePageLarge {
-    text-align: center;
-    margin: 1%;
-    background-color: #FAE7E0;
-    border-radius: 25px;
-}
-.profilePageSmall {
-    padding-top: 2%; padding-bottom: 2%;
-    padding-left: 0.5%; padding-right: 0.5%;
-    width: 35%;
-}
-
-.profilePageLarge {
-    height: 200px;
-    width: 72%;
 }

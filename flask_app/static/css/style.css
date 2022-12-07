@@ -6,10 +6,10 @@
     src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.svg#Gameplay") format("svg"); }
 
 @font-face {
-    font-family: "DisposableDroidBB"; 
-    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot"); 
-    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff") format("woff"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.svg#DisposableDroid BB") format("svg"); 
-    }
+    font-family: "DisposableDroid BB"; 
+    src: url("//db.onlinewebfonts.com/t/4c3a0d30e0b1a8cbda1a2485f56d9197.eot"); 
+    src: url("//db.onlinewebfonts.com/t/4c3a0d30e0b1a8cbda1a2485f56d9197.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4c3a0d30e0b1a8cbda1a2485f56d9197.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4c3a0d30e0b1a8cbda1a2485f56d9197.woff") format("woff"), url("//db.onlinewebfonts.com/t/4c3a0d30e0b1a8cbda1a2485f56d9197.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4c3a0d30e0b1a8cbda1a2485f56d9197.svg#DisposableDroid BB") format("svg"); 
+}
 
 @font-face {
     font-family: "VT323-Regular"; 
@@ -19,7 +19,7 @@
 
 /* master divs */
 .container {
-    font-family: "DisposableDroidBB";
+    font-family: "DisposableDroid BB";
     font-size: 22px;
     color: #00205d;
     display: inline-block;
@@ -35,7 +35,7 @@
 }
 
 .container2 {
-    font-family: "DisposableDroidBB";
+    font-family: "DisposableDroid BB";
     font-size: 22px;
     color: #00205d;
     display: inline-block;
@@ -212,7 +212,7 @@ display: inline;
 
 /* General style of the pages */
 body {
-    font-family: DisposableDroidBB;
+    font-family: "DisposableDroid BB";
     font-size: 22px;
     color: #00205d;
     display: inline-block;
@@ -319,7 +319,7 @@ body {
 }
 
 .big-button {
-    font-family: DisposableDroidBB;
+    font-family: "DisposableDroid BB";
     font-size: 21px;
     color: white;
     background-color: #00205d;

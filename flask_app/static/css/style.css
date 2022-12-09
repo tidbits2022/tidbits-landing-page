@@ -211,15 +211,23 @@ display: inline;
 }
 
 /* General style of the pages */
-body {
+* {
     font-family: "DisposableDroid BB";
     font-size: 22px;
     color: #00205d;
-    display: inline-block;
+}
+
+body {
     background-color: #edf4ff;
-    text-align: left;
     margin: 40px 70px;
-    min-width: 1160px;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.tidbitslogo {
+    float: left;
+    height: 70px; 
+    width: 70px;
 }
 
 .navbar {
@@ -227,7 +235,8 @@ body {
     height: 85px;
     position: sticky;
     top: 0px; 
-    width: 1160px; 
+    width: 100%; 
+    z-index: 1;
 }
 
 .navbuttons {
@@ -236,7 +245,6 @@ body {
     color: #00205d;
     text-decoration: none;
     cursor: pointer;
-    z-index: 1;
     position: relative;
     padding: 10px 20px;
     margin: 20px;
@@ -311,6 +319,12 @@ body {
     z-index: 3;
 }
 
+body::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
 .titles {
     font-family: Gameplay;
     font-size: 48.8px;
@@ -337,32 +351,42 @@ body {
 }
 
 /* Canvas: Page 2 - LP1 (homepage.html) */
+.homepgbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .leftbody {
-    float: left;
-    width: 360px;
-    margin-top: 30px;
+    flex-basis: 31%;
+    position: relative;
+    top: -50px;
 }
 
 .rightbody {
-    float: left;
-    width: 800px;
+    flex-basis: 69%;
 }
 
 .pizzaimage {
     float: left;
     position: relative;
     top: -175px;
-    left: 295px;
+    left: 356px;
+    height: 65%; 
+    width: 65%;
+    z-index: -1;
 }
 
-#bluebackg {
+.rightbody::after {
     float: right;
     position: absolute;
+    content: '';
     background-color: #5270a8;
-    padding: 210px 185px;
-    margin-top: 40px;
-    margin-left: 430px;
-    z-index: -1;
+    width: 350px;
+    height: 70%;
+    top: 170px;
+    right: 70px;
+    z-index: -2;
 }
 
 /* Canvas: Page 3 - LP2 (aboutus.html) */

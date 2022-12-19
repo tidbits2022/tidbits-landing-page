@@ -213,54 +213,52 @@ display: inline;
 /* General style of the pages */
 * {
     font-family: "DisposableDroid BB";
-    font-size: 22px;
+    font-size: 1.8vw;
     color: #00205d;
 }
 
 body {
     background-color: #edf4ff;
-    margin: 40px 70px;
+    margin: 2.3vw 6vw 0 6vw;
     box-sizing: border-box;
-    overflow: scroll;
 }
 
 .tidbitslogo {
     float: left;
-    height: 70px; 
-    width: 70px;
+    height: 5vw; 
+    width: 5vw;
 }
 
 .navbar {
     background-color: #edf4ff;
-    height: 85px;
+    display: flex;
+    align-items: center;
     position: sticky;
-    top: 0px; 
-    width: 100%; 
     z-index: 1;
 }
 
 .navbuttons {
     float: left;
-    font-size: 23px;
+    font-size: 1.7vw;
     color: #00205d;
     text-decoration: none;
     cursor: pointer;
     position: relative;
-    padding: 10px 20px;
-    margin: 20px;
+    padding: 0.8vw 1.7vw;
+    margin: 1.7vw;
 }
 
 .navbuttons:hover {
-    background-color: #5270a8;
+    color: #5270a8;
     transition: 0.2s;
 }
 
 .dropbtn {
-    top: 20px;
     position: relative;
-    margin-bottom: 20px;
+    background-color: #edf4ff;
+    top: 0.4vh;
     cursor: pointer;
-    border: none;
+    border: none;   
 }
 
 .dropdown {
@@ -272,13 +270,13 @@ body {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 13.7vw;
     z-index: 1;
 }
 
 .dropdown-content a {
     color: #00205d;
-    padding: 12px 16px;
+    padding: 1vw 1.3vw;
     text-decoration: none;
     display: block;
 }
@@ -298,51 +296,36 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 10px
+    width: 0.8vw;
 }
 
 ::-webkit-scrollbar-thumb {
     background: #70a6ff;
-    border-radius: 5px;
+    border-radius: 0.4vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: #5270a8;
 }
 
-.scrolldiv { 
-    height: 380px;
-    position: relative; 
-    float: right; 
-    right: 310px; 
-    border-left: 10px solid #112242;
-    z-index: 3;
-}
-
-body::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
-
 .titles {
     font-family: Gameplay;
-    font-size: 48.8px;
+    font-size: 4.2vw;
     color: #112242;
     text-align: center;
 }
 
 .big-button {
     font-family: "DisposableDroid BB";
-    font-size: 21px;
+    font-size: 1.8vw;
     color: white;
     background-color: #00205d;
-    border-radius: 25px;
+    border-radius: 2.1vw;
     display: inline-block;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    padding: 11px 25px;
+    padding: 0.9vw 2.1vw;
 }
 
 .big-button:hover {
@@ -352,73 +335,102 @@ body::after {
 
 /* Canvas: Page 2 - LP1 (homepage.html) */
 .homepgbody {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
 }
 
-.leftbody {
-    flex-basis: 31%;
-    position: relative;
-    top: -50px;
-}
-
-.rightbody {
-    flex-basis: 69%;
+.item1 {
+    margin-right: 45%;
 }
 
 .pizzaimage {
-    float: left;
-    position: relative;
-    top: -175px;
-    left: 356px;
-    height: 65%; 
-    width: 65%;
+    float: right;
+    height: 120%;
+    width: 120%;
+    transform: translateY(-20vh);
+}
+
+#bluebackg {
+    float: right;
+    position: absolute;
+    background-color: #5270a8;
+    padding: 35vh 30vh;
+    transform: translateX(6vh);
     z-index: -1;
 }
 
-.rightbody::after {
-    float: right;
-    position: absolute;
-    content: '';
-    background-color: #5270a8;
-    width: 350px;
-    height: 70%;
-    top: 170px;
-    right: 70px;
-    z-index: -2;
+/* Canvas: Page 3 - LP2 (aboutus.html) */
+.aboutuspara{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
 }
 
-/* Canvas: Page 3 - LP2 (aboutus.html) */
-#aboutuspara{
-    width: 380px;
-    float: right;
-    margin-top: 30px;
-    margin-right: 50px;
-    text-align: justify;
+.studentpic {
+    width: 40%; 
+    height: 40%;
+    transform: translateX(20vh);
 }
 
 /* Canvas: Page 4 - LP3 (the_team.html) */
+.teamcol_three {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 3.4vw;
+    text-align: center;
+    margin-top: 3.4vw;
+}
+
+.teamcol_two {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 3.4vw;
+    text-align: center;
+    margin-top: 3.4vw;
+}
+
+.teampic_three {
+    width: 40%; 
+    height: 40%; 
+} 
+
+.teampic_two {
+    width: 27%; 
+    height: 27%; 
+}
+
 .teamnames {
-    font-size: 35px;
+    font-size: 3vw;
     color: #112242;
     text-align: center;
-    margin: 0px;
+    margin: 2.5vw 0 0 0;
 }
 
 .teamroles {
     font-family: VT323-Regular;
-    font-size: 25px;
+    font-size: 2.1vw;
     color: #112242;
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
 
-.theteam {
-    float: left;
-    width: 386.6px;
-    text-align: center;
-    margin-top: 40px;
+.bio_three {
+    text-align: justify; 
+    text-align-last:center; 
+    padding-left: 3.4vw; 
+    padding-right: 3.4vw;
+}
+
+.bio_two {
+    text-align: justify; 
+    text-align-last:center; 
+    padding-left: 8.6vw; 
+    padding-right: 8.6vw;
 }
 
 /* Not too sure where these are meant for for now */

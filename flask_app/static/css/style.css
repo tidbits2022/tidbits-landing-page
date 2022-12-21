@@ -433,6 +433,44 @@ body {
     padding-right: 8.6vw;
 }
 
+/* Canvas: Page 10 - Game (notes_sharing_1.html) */
+.bookspic {
+    width: 30%; 
+    height: 30%;
+    transform: translateX(20vh);
+}
+
+.mainnotes{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
+}
+
+.titlessmall {
+    font-family: Gameplay;
+    font-size: 3vw;
+    color: #112242;
+    text-align: center;
+}
+
+.big-big-button {
+    font-family: "DisposableDroid BB";
+    font-size: 2.4vw;
+    color: white;
+    background-color: #00205d;
+    border-radius: 2.1vw;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.9vw 2.1vw;
+}
+
+.big-big-button:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
 /* Not too sure where these are meant for for now */
 
 .alignRight, .alignLeft {

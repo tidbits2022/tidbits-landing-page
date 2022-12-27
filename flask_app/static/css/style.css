@@ -1063,12 +1063,7 @@ body {
     transform: translateX(44vh);
 }
 
-.mainnotes{
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: flex-start;
-    gap: 0px;
-}
+
 
 .browsetitle{
     position: relative;

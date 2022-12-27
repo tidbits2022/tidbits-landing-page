@@ -1059,8 +1059,8 @@ body {
 /* Canvas: Page 10 - Game (notes_sharing_1.html) */
 .bookspic {
     width: 20%; 
-    height: 20%;
-    transform: translateX(27vh);
+    height: 55%;
+    transform: translateX(44vh);
 }
 
 .mainnotes{
@@ -1070,33 +1070,35 @@ body {
     gap: 0px;
 }
 
-.upload {
-    grid-column-start: 1;
-    grid-column-end: 1.5;
-  }
+.browsetitle{
+    position: relative;
+    top: 15vh;
+}
 
-  .browse {
-    grid-column-start: 1.5;
-    grid-column-end: 3;
-  }
+.donatetitle{
+    position: relative;
+    top: 0vh;
+}
 
 .titlessmall {
     font-family: Gameplay;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     color: #112242;
     text-align: center;
 }
 
+
 .titlessmallwhite {
     font-family: Gameplay;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     color:#edf4ff;
     text-align: center;
+
 }
 
 .big-big-button {
-    font-family: "DisposableDroid BB";
-    font-size: 2.4vw;
+    font-family: "DisposableDroidBB";
+    font-size: 2.6vw;
     color: white;
     background-color: #00205d;
     border-radius: 2.1vw;
@@ -1105,6 +1107,14 @@ body {
     text-decoration: none;
     cursor: pointer;
     padding: 0.9vw 2.1vw;
+    justify-self: center;
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+.withincontainer {
+    position: relative;
+    top: 22vh;
 }
 
 .big-big-button:hover {
@@ -1112,29 +1122,80 @@ body {
     transition: 0.2s;
 }
 
-.titlessmall {
-    font-family: Gameplay;
-    font-size: 3vw;
-    color: #112242;
-    text-align: center;
-}
 
 .biggest-button {
-    font-family: "DisposableDroid BB";
-    font-size: 3.5vw;
+    font-family: "DisposableDroidBB";
+    font-size: 3.2vw;
     color: #00205d;
     background-color: #edf4ff;
-    border-radius: 2.1vw;
+    border-radius: 2.8vw;
     display: inline-block;
     text-align: center;
-    text-decoration: none;
+    text-decoration: None;
     cursor: pointer;
-    padding: 0.9vw 2.1vw;
+    padding: 1.1vw 2.3vw;
+    position: relative;
+    margin-top: -6%;
+    top: 25vh;
+    justify-content: center;
+    justify-self: center;
+    margin-left: 30%;
 }
+
+.biggest-button2 {
+    font-family: "DisposableDroidBB";
+    font-size: 3.2vw;
+    color: #00205d;
+    background-color: #edf4ff;
+    border-radius: 2.8vw;
+    display: inline-block;
+    text-align: center;
+    text-decoration: None;
+    cursor: pointer;
+    padding: 1.1vw 2.3vw;
+    position: relative;
+    margin-top: -10%;
+    top: 32vh;
+    justify-content: center;
+    justify-self: center;
+    margin-left: 30%;
+}
+
 
 .biggest-button:hover {
     background-color: #5270a8;
     transition: 0.2s;
+}
+
+.Container {
+    font-family: "DisposableDroidBB";
+    font-size: 22px;
+    color: #00205d;
+    display: inline-block;
+    background-color: #edf4ff; 
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.Container2 {
+    font-family: "DisposableDroidBB";
+    font-size: 22px;
+    color: #00205d;
+    display: inline-block;
+    background-color: #00205d; 
+
+    width: 50%;
+    height: 100%;
+    float: left;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position:absolute;
 }
 
 /* Not too sure where these are meant for for now */

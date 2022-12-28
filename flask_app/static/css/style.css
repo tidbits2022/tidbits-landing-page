@@ -1162,6 +1162,11 @@ body {
     transition: 0.2s;
 }
 
+.biggest-button2:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
 .Container {
     font-family: "DisposableDroidBB";
     font-size: 22px;
@@ -1259,6 +1264,12 @@ input[type="file"] {
     left: 20vh;
     top: 10vh;
 }
+
+.small-button:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
 .uploadnotespg2 {
     position: relative;
     left: 50vh;

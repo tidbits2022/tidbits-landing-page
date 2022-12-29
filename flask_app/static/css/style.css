@@ -1280,6 +1280,70 @@ input[type="file"] {
     left: 15vh;
     top: 5vh;
 }
+.subject {
+    color:white;
+    text-align: center;
+    font-family: "DisposableDroidBB";
+    background-color:#00205d;
+    width: 48vh;
+    height: 6vh;
+    padding-top: 2vh;
+    border-radius: 0.6vh;
+    margin: 5vh;
+}
+
+.mid {
+    position: relative;
+    left: 60vh;
+    top: -26vh;
+}
+
+.right {
+    position: relative;
+    left: 120vh;
+    top: -52vh;
+}
+.popsubj {
+    position: relative;
+    left: 5vh;
+}
+
+.popularsubjs {
+    position: relative;
+    left: 17vh;
+    top: 25vh;
+}
+
+.withincontainer3 {
+    position: relative;
+    left: 78vh;
+    top: 22vh;
+}
+
+.searchbar {
+    width: 55vh;
+    height: 8vh;
+    border-radius: 5vh;
+    border: none;
+    background-color: #00205d;
+    font-family: "DisposableDroidBB";
+    color:white;
+    padding-left: 3vh;
+    box-sizing: border-box;
+}
+
+.megacontainer3 {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.searchbarimg {
+    height: 11vh;
+    position: relative;
+    left: -16.5vh;
+    top: 4.4vh;
+}
 
 /* Not too sure where these are meant for for now */
 

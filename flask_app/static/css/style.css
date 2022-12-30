@@ -1291,6 +1291,10 @@ input[type="file"] {
     border-radius: 0.6vh;
     margin: 5vh;
 }
+.subject:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
 
 .mid {
     position: relative;
@@ -1310,7 +1314,7 @@ input[type="file"] {
 
 .popularsubjs {
     position: relative;
-    left: 17vh;
+    left: 14vh;
     top: 25vh;
 }
 
@@ -1332,10 +1336,26 @@ input[type="file"] {
     box-sizing: border-box;
 }
 
+.withincontainer3 input:focus{
+    outline: none;
+}
+
+html, body {
+    margin: 0;
+    height: 100%; 
+    overflow: hidden;
+}
+
 .megacontainer3 {
     width: 100%;
     height: 100%;
-    overflow:hidden;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(https://lh3.googleusercontent.com/-wypTRTMSvTnbWbjKUQ9pGRv6cmnq8HikOLJilKQmrwl9jAsDyTDjzrgx_loEwLnzHg=w2400);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .searchbarimg {
@@ -1343,6 +1363,28 @@ input[type="file"] {
     position: relative;
     left: -16.5vh;
     top: 4.4vh;
+}
+
+.searchstudentimgbored {
+    width:15vh;
+    height:22vh;
+}
+
+.searchstudentimgwink {
+    width:13vh;
+    height:22vh;
+}
+
+.imgofstudents {
+    position: relative;
+    left: 155vh;
+    top: -26vh;
+}
+
+.winkingdude {
+    position: relative;
+    left: 18vh;
+    top: -22.5vh;
 }
 
 /* Not too sure where these are meant for for now */

@@ -1296,6 +1296,11 @@ input[type="file"] {
     transition: 0.2s;
 }
 
+.left {
+    position: relative;
+    left: -5vh;
+}
+
 .mid {
     position: relative;
     left: 60vh;
@@ -1304,17 +1309,17 @@ input[type="file"] {
 
 .right {
     position: relative;
-    left: 120vh;
+    left: 125vh;
     top: -52vh;
 }
 .popsubj {
     position: relative;
-    left: 5vh;
+    left: 0vh;
 }
 
 .popularsubjs {
     position: relative;
-    left: 14vh;
+    left: 17vh;
     top: 25vh;
 }
 
@@ -1322,7 +1327,9 @@ input[type="file"] {
     position: relative;
     left: 78vh;
     top: 22vh;
+    box-sizing: border-box;
 }
+
 
 .searchbar {
     width: 55vh;
@@ -1377,7 +1384,7 @@ html, body {
 
 .imgofstudents {
     position: relative;
-    left: 155vh;
+    left: 162vh;
     top: -26vh;
 }
 

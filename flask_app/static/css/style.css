@@ -16,22 +16,6 @@
     src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot"); 
     src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.svg#VT323") format("svg"); 
     }
-/*
-body {
-    font-family: "DisposableDroidBB";
-    font-size: 22px;
-    color: #00205d;
-    display: inline-block;
-    background-color: #edf4ff; 
-     background: linear-gradient(to left, #edf4ff 50%, #00205d 50%); 
-    text-align: left;
-    margin: 40px 70px;
-    min-width: 1160px;
-    position: absolute;
-    width: 1160px;
-    height: 85px;
-}
-*/
 
 /* master divs */
 .container {
@@ -63,7 +47,6 @@ body {
   /*  margin: 40px 70px; */
     width: 50%;
     height: 100%;
-    float: right;
     top: 0;
     right: 0;
     bottom: 0;
@@ -219,16 +202,17 @@ body {
     margin-top: -2%;
 }
 
-
-.tidbitslogoaboutus{
+.tidbitslogolp{
     float: left;
-    height: 5vw; 
-    width: 5vw;
+    height: 7vw; 
+    width: 7vw;
 }
+
 .aboutuspage{
     height: 100%;
     width: 100%;
 }
+
 .item1aboutus {
     margin-top: 0;
     margin-bottom: 0;
@@ -239,7 +223,7 @@ body {
     left: 50%;
 }
 
-.item2aboutus{
+.item2aboutus {
     margin-left: 10vh; 
     transform: translateY(1vh); 
     text-align: justify;
@@ -250,12 +234,14 @@ body {
 .dropbtnimage{
     height: 8vh;
 }
+
 .titles {
     font-family: Gameplay;
     font-size: 3.5vw;
     color: #112242;
     text-align: center;
 }
+
 .item2description{
     font-family: "DisposableDroidBB";
     font-size: 145%;
@@ -265,6 +251,7 @@ body {
     margin-bottom: 0vh;
     margin-left: -10vw;
 }
+
 .big-button {
     font-family: "DisposableDroidBB";
     font-size: 2.5vw;
@@ -287,10 +274,10 @@ body {
     align-items: center;
     position:sticky;
     z-index: 1;
+    margin-top: 3%;
     margin-left: 3%;
     margin-right: 3%;
 }
-
 
 .navbuttons {
     font-family: "DisposableDroidBB";
@@ -320,16 +307,16 @@ body {
 /* for others like ipads and macs*/
  @media (orientation:landscape) 
  and (min-width: 1000px) { 
-    .fusername{
-    height: 3rem;
-    min-height: 1rem;
-    font-family: "DisposableDroidBB";
-    font-size: 2rem;
+.fusername {
+height: 3rem;
+min-height: 1rem;
+font-family: "DisposableDroidBB";
+font-size: 2rem;
 }
 
-.fpassword{
+.fpassword {
     height: 3rem;
-        min-height: 1rem;
+    min-height: 1rem;
     font-family: "DisposableDroidBB";
     font-size: 2rem;
 }
@@ -354,18 +341,19 @@ body {
     margin-top: 3%;
     height: 50%;
     line-height: 150%;
-        margin-bottom: 0%;
+    margin-bottom: 0%;
 
 }
 
-.span1{
+.span1 {
     line-height: 200%;
 }
-.span2{
+
+.span2 {
     line-height: 300%;
 }
 
-.googlelogo{
+.googlelogo {
     position: absolute;
     margin-top: 8%;
     margin-left: 6%;
@@ -375,7 +363,7 @@ body {
     float: left;
 }
 
-.registerclass{
+.registerclass {
     display: block;
   justify-content: right;
   margin-left: 63%;
@@ -395,11 +383,11 @@ body {
     padding: 5px 50px;
     height: 50%;
     line-height: 100%;
-        margin-top: 0%;
+    margin-top: 0%;
 
 }
 
-.buttonsclass{
+.buttonsclass {
     display: flex;
   flex-direction: column;
   justify-content: center;
@@ -416,7 +404,8 @@ body {
     color: #112242;
     text-align: center;
 }
-.item2description{
+
+.item2description {
     font-family: "DisposableDroidBB";
     font-size: 120%;
     line-height: 110%;
@@ -437,18 +426,19 @@ body {
     margin-left: 20%;
 }
 
-.aboutuspage{
+.aboutuspage {
     height: 100%;
     width: 100%;
 }
 
 
-.item2aboutus{
+.item2aboutus {
     margin-left: 15vh; 
     transform: translateY(3vh); 
     text-align: justify;
     margin-right: 10vh;
 }
+
 .item1aboutus {
     margin-top: 0;
     margin-bottom: 0;
@@ -458,6 +448,7 @@ body {
     top: 50%;
     left: 50%;
 }
+
 .aboutuspara{
     display: grid;
     grid-template-columns: auto auto;
@@ -470,6 +461,7 @@ body {
     margin-right: 5%;
 
 }
+
 .studentpic {
     width: 70%; 
     justify-self: center;
@@ -477,16 +469,17 @@ body {
     margin-bottom: 5%;
     margin-top: 0%;
 }
+
 .navbar {
     background-color: #edf4ff;
     display: flex;
     align-items: center;
     position:sticky;
     z-index: 1;
+    margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
 }
-
 
 .navbuttons {
     font-family: "DisposableDroidBB";
@@ -499,11 +492,12 @@ body {
     padding: 0.8vw 1.7vw;
     margin: 1.7vw;
 }
-.dropbtnimage{
-    height: 5vh;
-    }
 
-.tidbitslogoaboutus{
+.dropbtnimage {
+    height: 5vh;
+}
+
+.tidbitslogoaboutus {
 float: left;
 height: 5vw; 
 width: 5vw;
@@ -530,6 +524,8 @@ width: 5vw;
     left: auto !important;
     right: 0 !important;
 }
+
+
 /*landscape mac and ipad*/
 /* Canvas: Page 2 - LP1 (homepage.html) */
 .homepgbody {
@@ -568,14 +564,15 @@ width: 5vw;
     padding: 0.9vw 2.1vw;
     justify-self: center;
     margin-left: 0%;
-    float: left;
 }
-.homepagedesc{
+
+.homepagedesc {
     width: 35vw;
     font-size: 120%;
     font-family: "DisposableDroidBB";
     margin-bottom: 3vh;
 }
+
 .titleshomepage {
     font-family: Gameplay;
     font-size: 4.2vw;
@@ -583,24 +580,94 @@ width: 5vw;
     text-align: center;
 }
 
- }
+/* Canvas: Page 4 - LP3 (the_team.html) */
 
-/* potrait views*/
- @media (orientation: portrait){
+.titlestheteam {
+    font-family: Gameplay;
+    font-size: 5vw;
+    color: #112242;
+    text-align: center;
+}
+
+.teamcol_three {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 3.4vw;
+    text-align: center;
+    margin-top: 3.4vw;
+}
+
+.teamcol_two {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 3.4vw;
+    text-align: center;
+    margin-top: 3.4vw;
+}
+
+.teampic_three {
+    width: 40%; 
+    height: 40%; 
+} 
+
+.teampic_two {
+    width: 30.8%; 
+    height: 30.8%; 
+}
+
+.bio_three {
+    text-align: justify; 
+    text-align-last:center; 
+    padding-left: 3.4vw; 
+    padding-right: 3.4vw;
+}
+
+.bio_two {
+    text-align: justify; 
+    text-align-last:center; 
+    padding-left: 8.6vw; 
+    padding-right: 8.6vw;
+}
+
+.teamnames {
+    font-size: 3vw;
+    color: #112242;
+    text-align: center;
+    margin: 2.5vw 0 0 0;
+}
+
+.teamroles {
+    font-family: "VT323-Regular";
+    font-size: 2.1vw;
+    color: #112242;
+    text-align: center;
+    margin: 0;
+}
+
+}
+
+/* portrait views*/
+ @media (orientation: portrait) {
+
 /* Canvas: LP-Log in page */
-.fusername{
+.fusername {
     height: 3rem;
     min-height: 1rem;
     font-family: "DisposableDroidBB";
     font-size: 2rem;
 }
 
-.fpassword{
+.fpassword {
     height: 3rem;
-        min-height: 1rem;
+    min-height: 1rem;
     font-family: "DisposableDroidBB";
     font-size: 2rem;
 }
+
 .signin {
     font-family: "Gameplay";
     font-size: 280%;
@@ -609,16 +676,16 @@ width: 5vw;
     left: 25%;
 }
 
-.tidbitslogo{
+.tidbitslogo {
     position: relative; 
-  margin: auto;
-  margin-top: -6%;
-  top: 35vh;
-  display: flex;
-  border: solid 1vw #00205d;
-  border-radius: 50%;
-  width: 50%;
-  justify-content: center;
+    margin: auto;
+    margin-top: -6%;
+    top: 35vh;
+    display: flex;
+    border: solid 1vw #00205d;
+    border-radius: 50%;
+    width: 50%;
+    justify-content: center;
 }
 
 .signin-goo {
@@ -634,18 +701,19 @@ width: 5vw;
     margin-top: 5%;
     margin-right: 0%;
     height: 50%;
-   line-height: 150%;
-       margin-bottom: 0em;
+    line-height: 150%;
+    margin-bottom: 0em;
 }
 
-.span1{
+.span1 {
     line-height: 200%;
 }
-.span2{
+
+.span2 {
     line-height: 300%;
 }
 
-.googlelogo{
+.googlelogo {
     position: absolute;
     margin-top: 10.5%;
     margin-left: 2%;
@@ -656,12 +724,12 @@ width: 5vw;
     height: 2%;
 }
 
-.registerclass{
+.registerclass {
     display: block;
-  justify-content: right;
-  margin-left: 63%;
-  margin-right: 25%;
-  margin-top: 55%;
+    justify-content: right;
+    margin-left: 63%;
+    margin-right: 25%;
+    margin-top: 55%;
 }
 
 .signin-button {
@@ -681,18 +749,15 @@ width: 5vw;
 
 .buttonsclass{
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 6rem;
 }
 
-
-
-
 /* Canvas: Page 3 - LP2 (aboutus.html) */
-  .aboutuspara{
+.aboutuspara {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
@@ -701,17 +766,18 @@ width: 5vw;
     left: 50%;
     margin-top: 2%;
     margin-left: 10%;
-    }
+}
 
-    .aboutuspage{
+.aboutuspage {
     height: 100%;
     width: 100%;
-    }   
+}   
 
-    .dropbtnimage{
+.dropbtnimage {
     height: 3vh;
-    }
-    .studentpic {
+}
+
+.studentpic {
     width: 150%; 
     justify-self: center;
     margin-left: -25%;
@@ -719,15 +785,15 @@ width: 5vw;
     margin-top: 20%;
 }
 
-    .titles {
-    font-family: Gameplay;
+.titles {
+    font-family: "Gameplay";
     font-size: 8vw;
     color: #112242;
     text-align: center;
     margin-top: -25vw;
-    }
+}
 
-.item2description{
+.item2description {
     font-family: "DisposableDroidBB";
     font-size: 270%;
     line-height: 110%;
@@ -754,12 +820,13 @@ width: 5vw;
     line-height: 10vw;
 }
 
-.item2aboutus{
+.item2aboutus {
     margin-left: 10vh; 
     transform: translateY(4vh); 
     text-align: justify;
     margin-right: 10vh;
 }
+
 .item1aboutus {
     margin-top: 40vw;
     margin-bottom: 0;
@@ -769,12 +836,14 @@ width: 5vw;
     top: 50%;
     left: 50%;
 }
+
 .navbar {
     background-color: #edf4ff;
     display: flex;
     align-items: center;
     position:sticky;
     z-index: 1;
+    margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -790,7 +859,8 @@ width: 5vw;
     padding: 0.8vw 1.7vw;
     margin: 1.7vw;
 }
-.tidbitslogoaboutus{
+
+.tidbitslogoaboutus {
     float: left;
     height: 6vw; 
     width: 6vw;
@@ -810,7 +880,6 @@ width: 5vw;
     height: 5vh;
     z-index: 1;
     text-align: center;
-    vertical-align: middle;
     line-height: 5vh;
 }
 
@@ -827,7 +896,7 @@ width: 5vw;
 }
 
 
-/*potrait iphone*/
+/*portrait iphone*/
 /* Canvas: Page 2 - LP1 (homepage.html) */
 .homepgbody {
     margin-top: 30vh;
@@ -869,7 +938,7 @@ width: 5vw;
     line-height: 10vw;
 }
 
-.homepagedesc{
+.homepagedesc {
     font-size: 270%;
     line-height: 110%;
     margin-bottom: 10vh;
@@ -881,12 +950,79 @@ width: 5vw;
     color: #112242;
     text-align: center;
     margin-top: -27vw;
-    
-    }
+}
+/* Canvas: Page 4 - LP3 (the_team.html) */
 
- }
+.titlestheteam {
+    font-family: "Gameplay";
+    font-size: 6.5vw;
+    color: #112242;
+    text-align: center;
+    margin-top: 6vw;
+}
 
+.teamcol_three {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 3.4vw;
+    text-align: center;
+    margin-top: 3.4vw;
+}
 
+.teamcol_two {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 3.4vw;
+    text-align: center;
+    margin-top: 3.4vw;
+}
+
+.teampic_three {
+    width: 50%; 
+    height: 50%; 
+} 
+
+.teampic_two {
+    width: 40%; 
+    height: 40%; 
+}
+
+.teamnames {
+    font-size: 4.5vw;
+    color: #112242;
+    text-align: center;
+    margin: 2.5vw 0 0 0;
+}
+
+.teamroles {
+    font-family: "VT323-Regular";
+    font-size: 3.6vw;
+    color: #112242;
+    text-align: center;
+    margin: 0;
+}
+
+.bio_three {
+    font-size: 3.4vw;
+    text-align: justify; 
+    text-align-last:center; 
+    padding-left: 3.4vw; 
+    padding-right: 3.4vw;
+}
+
+.bio_two {
+    font-size: 3.4vw;
+    text-align: justify; 
+    text-align-last:center; 
+    padding-left: 3.4vw;
+    padding-right: 3.4vw;
+}
+
+}
 
 .dropdownmenu{
     height: 4rem;
@@ -895,7 +1031,7 @@ width: 5vw;
     background-color: #edf4ff;
     position: absolute;
     top:0;
-     right:0;
+    right:0;
 }
 
 .buttonmenu{
@@ -985,14 +1121,6 @@ body {
     margin: 0;
 }
 
-/*
-.tidbitslogo {
-    float: left;
-    height: 5vw; 
-    width: 5vw;
-} */
-
-
 .navbuttons:hover {
     color: #5270a8;
     transition: 0.2s;
@@ -1024,10 +1152,9 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #C4D1EF;
     cursor: pointer;
 }
-
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -1123,74 +1250,6 @@ body {
     transform: translateX(10vh);
     z-index: -1;
 } */
-
-
-
-
-
-
-
-
-
-/* Canvas: Page 4 - LP3 (the_team.html) */
-.teamcol_three {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    align-items: start;
-    margin-bottom: 3.4vw;
-    text-align: center;
-    margin-top: 3.4vw;
-}
-
-.teamcol_two {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    align-items: start;
-    margin-bottom: 3.4vw;
-    text-align: center;
-    margin-top: 3.4vw;
-}
-
-.teampic_three {
-    width: 40%; 
-    height: 40%; 
-} 
-
-.teampic_two {
-    width: 27%; 
-    height: 27%; 
-}
-
-.teamnames {
-    font-size: 3vw;
-    color: #112242;
-    text-align: center;
-    margin: 2.5vw 0 0 0;
-}
-
-.teamroles {
-    font-family: VT323-Regular;
-    font-size: 2.1vw;
-    color: #112242;
-    text-align: center;
-    margin: 0;
-}
-
-.bio_three {
-    text-align: justify; 
-    text-align-last:center; 
-    padding-left: 3.4vw; 
-    padding-right: 3.4vw;
-}
-
-.bio_two {
-    text-align: justify; 
-    text-align-last:center; 
-    padding-left: 8.6vw; 
-    padding-right: 8.6vw;
-}
 
 /* Canvas: Page 10 - Game (notes_sharing_1.html) */
 .bookspic {

@@ -530,6 +530,58 @@ body {
     left: auto !important;
     right: 0 !important;
 }
+/*landscape mac and ipad*/
+/* Canvas: Page 2 - LP1 (homepage.html) */
+.homepgbody {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
+}
+
+.item1homepage {
+    margin-right: 0vw;
+    margin-left: 7vw;
+    margin-top: 10vh;
+}
+
+.pizzaimage {
+    float: right;
+    height: 85vh;
+    width: 55vw;
+    top: 0;
+    margin-bottom: 0vh;
+    margin-left: 0vw;
+    margin-top: -4vh;
+    margin-right: 0vw;
+}
+
+.big-button-homepage {
+    font-family: "DisposableDroidBB";
+    font-size: 2.3vw;
+    color: white;
+    background-color: #00205d;
+    border-radius: 2.1vw;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.9vw 2.1vw;
+    justify-self: center;
+    margin-left: 0%;
+    float: left;
+}
+.homepagedesc{
+    width: 35vw;
+    font-size: 120%;
+    font-family: "DisposableDroidBB";
+    margin-bottom: 3vh;
+}
+.titleshomepage {
+    font-family: Gameplay;
+    font-size: 4.2vw;
+    color: #112242;
+    text-align: center;
+}
 
  }
 
@@ -774,6 +826,64 @@ body {
 
 }
 
+
+/*potrait iphone*/
+/* Canvas: Page 2 - LP1 (homepage.html) */
+.homepgbody {
+    margin-top: 30vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
+}
+
+.item1homepage {
+    margin-right: 1vw;
+    margin-left: 6vw;
+    margin-top: 3vh;
+}
+
+.pizzaimage {
+    float: right;
+    height: 40vh;
+    width: 55vw;
+    top: 0vh;
+    margin-left: -10vw;
+    margin-top: -15vh;
+    margin-right: -4vw;
+}
+
+.big-button-homepage {
+    font-family: "DisposableDroidBB";
+    font-size: 5vw;
+    color: white;
+    background-color: #00205d;
+    border-radius: 6vw;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1.5vw 2.1vw;
+    justify-self: center;
+    margin-left: 44%;
+    width: 70%;
+    line-height: 10vw;
+}
+
+.homepagedesc{
+    font-size: 270%;
+    line-height: 110%;
+    margin-bottom: 10vh;
+}
+
+.titleshomepage {
+    font-family: Gameplay;
+    font-size: 9vw;
+    color: #112242;
+    text-align: center;
+    margin-top: -27vw;
+    
+    }
+
  }
 
 
@@ -863,7 +973,7 @@ display: inline;
 
 /* General style of the pages */
 * {
-    font-family: "DisposableDroidBB";
+    font-family: "DisposableDroid BB";
     font-size: 1.8vw;
     color: #00205d;
 }
@@ -945,14 +1055,12 @@ body {
     background: #5270a8;
 }
 
-
-
-
-
 .big-button:hover {
     background-color: #5270a8;
     transition: 0.2s;
 }
+
+
 
 /* Canvas: Page 2 - LP1 (homepage.html) */
 .homepgbody {
@@ -961,33 +1069,61 @@ body {
     align-items: flex-start;
 }
 
-.item1 {
-    margin-right: 45%;
+.item1homepage {
+    margin-right: 1vw;
+    margin-left: 10vw;
+    margin-top: -4vh;
 }
 
 .pizzaimage {
     float: right;
-    height: 120%;
-    width: 120%;
-    transform: translateY(-20vh);
+    height: 68vh;
+    width: 35vw;
+    top: 0;
+    margin-bottom: 0vh;
+    margin-left: -4vw;
+    margin-top: -4vh;
+    margin-right: 1vw;
 }
 
-#bluebackg {
+.big-button-homepage {
+    font-family: "DisposableDroidBB";
+    font-size: 2.3vw;
+    color: white;
+    background-color: #00205d;
+    border-radius: 2.1vw;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.9vw 2.1vw;
+    justify-self: center;
+    margin-left: 0%;
+    float: left;
+}
+.homepagedesc{
+    width: 43vw;
+    font-size: 130%;
+    font-family: "DisposableDroidBB";
+    margin-bottom: 2.5vh;
+    margin-top: 0vh;
+}
+.titleshomepage {
+    font-family: Gameplay;
+    font-size: 4vw;
+    color: #112242;
+    text-align: center;
+}
+
+/* #bluebackg {
     float: right;
     position: absolute;
     background-color: #5270a8;
     padding: 35vh 30vh;
-    transform: translateX(6vh);
+    transform: translateX(10vh);
     z-index: -1;
-}
+} */
 
-
-
-
-
-
-
-/*PUT BACK HEREEEEEEEE*/
 
 
 

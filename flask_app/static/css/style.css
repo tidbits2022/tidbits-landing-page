@@ -70,8 +70,6 @@
   justify-content: center;
 }
 
-
-
 .login {
     font-size: 25px;
     color: white;
@@ -302,6 +300,73 @@
     font-size: 145%;
 }
 
+/* Canvas: Page 4 - LP3 (the_team.html) */
+
+.titlestheteam {
+    font-family: Gameplay;
+    font-size: 5vw;
+    color: #112242;
+    text-align: center;
+}
+
+.teamcol_three {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 3.4vw;
+    text-align: center;
+    margin-top: 3.4vw;
+}
+
+.teamcol_two {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 3.4vw;
+    text-align: center;
+    margin-top: 3.4vw;
+}
+
+.teampic_three {
+    width: 15vw; 
+    height: 15vw; 
+} 
+
+.teampic_two {
+    width: 15vw; 
+    height: 15vw; 
+}
+
+.bio_three {
+    text-align: justify; 
+    text-align-last:center; 
+    padding-left: 3.4vw; 
+    padding-right: 3.4vw;
+}
+
+.bio_two {
+    text-align: justify; 
+    text-align-last:center; 
+    padding-left: 8.6vw; 
+    padding-right: 8.6vw;
+}
+
+.teamnames {
+    font-size: 3vw;
+    color: #112242;
+    text-align: center;
+    margin: 2.5vw 0 0 0;
+}
+
+.teamroles {
+    font-family: "VT323-Regular";
+    font-size: 2.1vw;
+    color: #112242;
+    text-align: center;
+    margin: 0;
+}
 
 
 /* for others like ipads and macs*/
@@ -610,13 +675,13 @@ width: 5vw;
 }
 
 .teampic_three {
-    width: 40%; 
-    height: 40%; 
+    width: 15vw; 
+    height: 15vw; 
 } 
 
 .teampic_two {
-    width: 30.8%; 
-    height: 30.8%; 
+    width: 15vw; 
+    height: 15vw; 
 }
 
 .bio_three {
@@ -982,13 +1047,13 @@ width: 5vw;
 }
 
 .teampic_three {
-    width: 50%; 
-    height: 50%; 
+    width: 20vw; 
+    height: 20vw; 
 } 
 
 .teampic_two {
-    width: 40%; 
-    height: 40%; 
+    width: 20vw; 
+    height: 20vw; 
 }
 
 .teamnames {
@@ -1250,6 +1315,8 @@ body {
     transform: translateX(10vh);
     z-index: -1;
 } */
+
+
 
 /* Canvas: Page 10 - Game (notes_sharing_1.html) */
 .bookspic {

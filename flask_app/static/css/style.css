@@ -503,10 +503,10 @@ body {
     height: 5vh;
     }
 
-    .tidbitslogoaboutus{
-    float: left;
-    height: 5vw; 
-    width: 5vw;
+.tidbitslogoaboutus{
+float: left;
+height: 5vw; 
+width: 5vw;
 }
 
 .dropdown-content a {
@@ -973,7 +973,7 @@ display: inline;
 
 /* General style of the pages */
 * {
-    font-family: "DisposableDroid BB";
+    font-family: "DisposableDroidBB";
     font-size: 1.8vw;
     color: #00205d;
 }

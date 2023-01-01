@@ -6,34 +6,38 @@
         <link href="../static/css/style.css" rel="stylesheet">
 
         <div class="navbar">
-            <img src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400" class="tidbitslogo" alt="tidbits logo">
+            <img src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400" class="tidbitslogoaboutus" alt="tidbits logo">
             <a class="navbuttons" href="homepage.html">Home</a>
             <a class="navbuttons" href="aboutus.html">About Us</a>
             <a class="navbuttons" href="the_team.html">Team</a>
         
             <a class="navbuttons" style="margin-left: auto;" href="loginpage.html">Login/Register</a>
             <div class="dropdown">
-                <button class="dropbtn"><img src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" height="34vw"></button>
-                <div class="dropdown-content">
-                    <a> Random link</a>
-                    <a> Random link</a>
+                <button class="dropbtn"><img class="dropbtnimage" id="forjsdropbtnimage" src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" onmouseover="changeImage()" onmouseout="backToOriginal()" onclick="whenclicked()"></button>
+                <div class="dropdown-content"id="dropdown-content">
+                    <!--replace randomlink.html when confirm later-->
+                    <a href="randomlink.html"> Random link</a>
+                    <a href="randomlink.html"> Random link</a>
                 </div>
             </div>
         </div>
     </head>
     
-    <body style="overflow: hidden;">
+    <body >
         <div class="homepgbody">
-            <div class="item1">
-                <p class="titles" style="text-align: left;">Welcome <br> to Tidbits!</p>
-                <p>We're an online gamified community for the sharing of student resources</p>
-                <a class="big-button" href="aboutus.html" style="margin-top: 2.2vw;">About Us</a>
+            <div class="item1homepage">
+                <p class="titleshomepage" style="text-align: left;">Welcome <br> to Tidbits!</p>
+                <p class="homepagedesc">We're an online gamified community for the sharing of student resources</p>
+                <a class="big-button-homepage" href="aboutus.html" style="margin-top: 2.2vw;">About Us</a>
             </div>
 
-            <div class="item2">
-                <p id="bluebackg"></p>
-                <img src="https://lh6.googleusercontent.com/b5LFQ8Vej6ciZU-4e4DYokplP31vcuFbNQ3sFeOoHE61M_ntg1-Se6BbaLq4bm1Ppig=w2400" class="pizzaimage" alt="pizza slice">
+            <div class="item2homepage">
+                <!-- <p id="bluebackg"></p> -->
+                <img src="https://drive.google.com/uc?export=view&id=1i5246PmJUcSCR_DnXxrpRGoMlEihmi-8" class="pizzaimage" alt="pizza slice">
+              <!-- original link: https://lh6.googleusercontent.com/b5LFQ8Vej6ciZU-4e4DYokplP31vcuFbNQ3sFeOoHE61M_ntg1-Se6BbaLq4bm1Ppig=w2400 -->
             </div>
         </div>
     </body> 
+    <script src = "LPaboutusjavascript.js"></script>
+
 </html>

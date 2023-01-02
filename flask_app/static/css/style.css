@@ -1585,6 +1585,11 @@ input[type="file"] {
     top: 25vh;
 }
 
+.container3 {
+    position: relative;
+    top: -15vh;
+}
+
 .withincontainer3 {
     position: relative;
     left: 78vh;
@@ -1604,6 +1609,7 @@ input[type="file"] {
     padding-left: 3vh;
     box-sizing: border-box;
 }
+
 
 .withincontainer3 input:focus{
     outline: none;
@@ -1646,13 +1652,20 @@ html, body {
 .imgofstudents {
     position: relative;
     left: 162vh;
-    top: -26vh;
+    top: -29vh;
 }
 
 .winkingdude {
     position: relative;
     left: 18vh;
     top: -22.5vh;
+}
+
+.navcontainer {
+    width: 100%;
+    height: 17.7%;
+    background: rgb(167,200,255);
+
 }
 
 /* Not too sure where these are meant for for now */

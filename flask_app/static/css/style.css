@@ -37,6 +37,11 @@
     bottom: 0;
 }
 
+.textbook-class {
+    position: relative;
+    top: -3vh;
+}
+
 .container2 {
     font-family: "DisposableDroidBB";
     font-size: 22px;
@@ -1369,9 +1374,9 @@ body {
     font-weight: bold;
 }
 
-.withincontainer {
+.withincontainer1 {
     position: relative;
-    top: 22vh;
+    top: 0vh;
 }
 
 .big-big-button:hover {
@@ -1439,7 +1444,21 @@ body {
     height: 100%;
     float: right;
     position: absolute;
-    top: 0;
+    top: 16vh;
+    left: 0;
+    bottom: 0;
+}
+.Container1 {
+    font-family: "DisposableDroidBB";
+    font-size: 22px;
+    color: #00205d;
+    display: inline-block;
+    background-color: #edf4ff; 
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 27vh;
     left: 0;
     bottom: 0;
 }
@@ -1452,12 +1471,12 @@ body {
     background-color: #00205d; 
     width: 50%;
     height: 100%;
-    float: left;
-    top: 0;
+    top: 12vh;
     right: 0;
     bottom: 0;
     position:absolute;
 }
+
 
 .textbookspic {
     position: relative; 
@@ -1597,6 +1616,11 @@ input[type="file"] {
     box-sizing: border-box;
 }
 
+.megacontainer1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 
 .searchbar {
     width: 55vh;
@@ -1652,7 +1676,7 @@ html, body {
 .imgofstudents {
     position: relative;
     left: 162vh;
-    top: -29vh;
+    top: -29.3vh;
 }
 
 .winkingdude {
@@ -1661,10 +1685,78 @@ html, body {
     top: -22.5vh;
 }
 
-.navcontainer {
+.navcontainer1 {
     width: 100%;
     height: 17.7%;
     background: rgb(167,200,255);
+    border-bottom: 0.8vh solid #5875AC;
+    z-index: 2;
+    position:relative;
+
+}
+
+.tidbits-logo1 {
+    width: 38vh;
+    height: 28vh;
+    position: absolute;
+    top: -2.2vh;
+    left: 40vw;
+
+}
+
+.navcontainer2 {
+    width: 100%;
+    height: 17.7%;
+    background: rgb(167,200,255);
+    border-bottom: 0.8vh solid #5875AC;
+    z-index: 2;
+    position:relative;
+
+}
+
+.tidbits-logo2 {
+    width: 38vh;
+    height: 28vh;
+    position: absolute;
+    top: -2.2vh;
+    left: 40vw;
+
+}
+
+.navcontainer3 {
+    width: 100%;
+    height: 17.7%;
+    background: rgb(167,200,255);
+    border-bottom: 0.8vh solid #5875AC;
+    z-index: 2;
+    position:relative;
+
+}
+
+.tidbits-logo3 {
+    width: 38vh;
+    height: 28vh;
+    position: absolute;
+    top: -2.2vh;
+    left: 40vw;
+
+}
+.navcontainer4 {
+    width: 100%;
+    height: 17.7%;
+    background: rgb(167,200,255);
+    border-bottom: 0.8vh solid #5875AC;
+    z-index: 2;
+    position:relative;
+
+}
+
+.tidbits-logo4 {
+    width: 38vh;
+    height: 28vh;
+    position: absolute;
+    top: -2.2vh;
+    left: 40vw;
 
 }
 

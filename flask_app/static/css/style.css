@@ -1606,7 +1606,12 @@ input[type="file"] {
 
 .container3 {
     position: relative;
-    top: -15vh;
+    top: 1vh;
+}
+
+.container4 {
+    position: relative;
+    top: 3vh;
 }
 
 .withincontainer3 {
@@ -1616,10 +1621,17 @@ input[type="file"] {
     box-sizing: border-box;
 }
 
+.withincontainer4 {
+    position: relative;
+    left: 78vh;
+    top: 22vh;
+    box-sizing: border-box;
+}
+
 .megacontainer1 {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .searchbar {
@@ -1685,80 +1697,140 @@ html, body {
     top: -22.5vh;
 }
 
-.navcontainer1 {
+
+
+.navcontainer {
     width: 100%;
     height: 17.7%;
     background: rgb(167,200,255);
     border-bottom: 0.8vh solid #5875AC;
     z-index: 2;
-    position:relative;
-
+    position:absolute;
 }
 
-.tidbits-logo1 {
+
+
+.tidbits-logo {
     width: 38vh;
     height: 28vh;
     position: absolute;
-    top: -2.2vh;
+    top: -2.75vh;
     left: 40vw;
-
 }
 
-.navcontainer2 {
-    width: 100%;
-    height: 17.7%;
-    background: rgb(167,200,255);
-    border-bottom: 0.8vh solid #5875AC;
-    z-index: 2;
+
+
+.indiv-search-results .description-of-notes {
+    color:#edf4ff;
     position:relative;
-
+    top: 3vh;
+    left: 2.5vw;
 }
 
-.tidbits-logo2 {
-    width: 38vh;
-    height: 28vh;
-    position: absolute;
-    top: -2.2vh;
-    left: 40vw;
-
-}
-
-.navcontainer3 {
-    width: 100%;
-    height: 17.7%;
-    background: rgb(167,200,255);
-    border-bottom: 0.8vh solid #5875AC;
-    z-index: 2;
+.indiv-search-results .title-of-notes {
+    color:#edf4ff;
     position:relative;
-
+    top: 3vh;
+    left: 2.5vw;
 }
 
-.tidbits-logo3 {
-    width: 38vh;
-    height: 28vh;
-    position: absolute;
-    top: -2.2vh;
-    left: 40vw;
-
-}
-.navcontainer4 {
-    width: 100%;
-    height: 17.7%;
-    background: rgb(167,200,255);
-    border-bottom: 0.8vh solid #5875AC;
-    z-index: 2;
+.indiv-search-results .no-of-upvotes {
+    color:#C3C2BF;
     position:relative;
-
+    top: -12vh;
+    left: 54vw;
 }
 
-.tidbits-logo4 {
-    width: 38vh;
-    height: 28vh;
-    position: absolute;
-    top: -2.2vh;
-    left: 40vw;
-
+.indiv-search-results .username-of-upvotes {
+    color:#C3C2BF;
+    position:relative;
+    top: -12vh;
+    left: 43vw;
 }
+
+.indiv-search-results {
+    background-color:#00205d;
+    width: 150vh;
+    height: 18vh;
+    border-radius: 0.6vh;
+}
+
+.indiv-search-results:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
+.search-results {
+    position:relative;
+    top: 23vh;
+    left: 31vh;
+}
+
+.search-results-display {
+    width: fit-content;
+    height: 45vh;
+    position:relative;
+    top:-2vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav-options {
+    font-weight:bold;
+    font-size: larger;
+    position: relative;
+    top:5vh;
+    left: 10vw;
+}
+
+.nav-inventory {
+    position: relative;
+    top:-7.5vh;
+    left: 15vw;
+}
+
+.nav-profile {
+    position: relative;
+    left: 3vw;
+}
+
+.nav-notes {
+    position: relative;
+    top:-15vh;
+    left: 55vw;
+}
+
+.nav-home {
+    position: relative;
+    top:-22.5vh;
+    left: 67vw;
+}
+
+.nav-profile:hover {
+    color: #7A98CB;
+    transition: 0.2s;
+    -webkit-text-stroke-width: 0.1vh;
+    -webkit-text-stroke-color: #17294D;
+}
+.nav-inventory:hover {
+    color: #7A98CB;
+    transition: 0.2s;
+    -webkit-text-stroke-width: 0.1vh;
+    -webkit-text-stroke-color: #17294D;
+}
+.nav-notes:hover {
+    color: #7A98CB;
+    transition: 0.2s;
+    -webkit-text-stroke-width: 0.1vh;
+    -webkit-text-stroke-color: #17294D;
+}
+.nav-home:hover {
+    color: #7A98CB;
+    transition: 0.2s;
+    -webkit-text-stroke-width: 0.1vh;
+    -webkit-text-stroke-color: #17294D;
+}
+
 
 /* Not too sure where these are meant for for now */
 

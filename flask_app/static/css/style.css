@@ -1333,8 +1333,9 @@ body {
 
 
 .browsetitle{
-    position: relative;
-    top: 15vh;
+    position: absolute;
+    top: 25vh;
+    left: 15vw ;
 }
 
 .donatetitle{
@@ -1375,8 +1376,8 @@ body {
 }
 
 .withincontainer1 {
-    position: relative;
-    top: 12vh;
+    position: absolute;
+    top: 25vh;
 }
 
 .big-big-button:hover {
@@ -1396,9 +1397,9 @@ body {
     text-decoration: None;
     cursor: pointer;
     padding: 1.1vw 2.3vw;
-    position: relative;
+    position: absolute;
     margin-top: -6%;
-    top: 25vh;
+    top: 63vh;
     justify-content: center;
     justify-self: center;
     margin-left: 30%;
@@ -1415,9 +1416,9 @@ body {
     text-decoration: None;
     cursor: pointer;
     padding: 1.1vw 2.3vw;
-    position: relative;
+    position: absolute;
     margin-top: -10%;
-    top: 32vh;
+    top: 85vh;
     justify-content: center;
     justify-self: center;
     margin-left: 30%;
@@ -1457,9 +1458,10 @@ body {
     width: 50%;
     height: 100%;
     position: absolute;
-    top: 12vh;
+    top: 0;
     left: 0;
     bottom: 0;
+    box-sizing: border-box;
 }
 
 .Container2 {
@@ -1470,12 +1472,16 @@ body {
     background-color: #00205d; 
     width: 50%;
     height: 100%;
-    top: 12vh;
+    top: 0;
     right: 0;
     bottom: 0;
     position:absolute;
 }
 
+.pg2textbook {
+    position: absolute;
+    top: 12vh;
+}
 
 .textbookspic {
     position: relative; 
@@ -1581,6 +1587,7 @@ input[type="file"] {
 .left {
     position: absolute;
     left: -2vw;
+    top: 6vh;
 }
 
 .mid {
@@ -1593,22 +1600,23 @@ input[type="file"] {
 
 .right {
     position: absolute;
-    left: 125vh;
-    top: ;
+    left: 58vw;
+    top: 6vh;
 }
 .popsubj {
-    position: relative;
-    left: 0vh;
+    position: absolute;
+    left: 0.5vw;
+    white-space: nowrap;
 }
 
 .popularsubjs {
-    position: relative;
-    left: 17vh;
-    top: 25vh;
+    position: absolute;
+    left: 8vw;
+    top: 37vh;
 }
 
 .container3 {
-    position: relative;
+    position: absolute;
     top: 1vh;
 }
 
@@ -1618,10 +1626,12 @@ input[type="file"] {
 }
 
 .withincontainer3 {
-    position: relative;
-    left: 78vh;
-    top: 22vh;
+    position: absolute;
+    left: 37vw;
+    top: 27vh;
     box-sizing: border-box;
+    width: 25vw;
+    height: 8vh;
 }
 
 .withincontainer4 {
@@ -1669,12 +1679,13 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0;
-    overflow: hidden;
+    overflow: hidden !important;
     background-image: url(https://lh3.googleusercontent.com/-wypTRTMSvTnbWbjKUQ9pGRv6cmnq8HikOLJilKQmrwl9jAsDyTDjzrgx_loEwLnzHg=w2400);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
 }
 
 .searchbarimg {
@@ -1686,26 +1697,28 @@ html, body {
 }
 
 .searchstudentimgbored {
-    width:15vh;
+    width:7vw;
     height:22vh;
 }
 
 .searchstudentimgwink {
-    width:13vh;
-    height:22vh;
+    width:6.2vw;
+    height:22.4vh;
 }
 
 .imgofstudents {
-    position: relative;
-    left: 162vh;
-    top: -29.3vh;
+    position: absolute;
+    left: 75vw;
+    top: 73vh;
+    height: fit-content;
 }
 
 .winkingdude {
-    position: relative;
+    position: absolute;
     left: 18vh;
-    top: -22.5vh;
+    top: 0vh;
 }
+
 
 
 
@@ -1857,6 +1870,10 @@ html, body {
     -webkit-text-stroke-color: #17294D;
 }
 
+.allbutsearch {
+    position: absolute;
+    top: 2vh;
+}
 
 /* Not too sure where these are meant for for now */
 

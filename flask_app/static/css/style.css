@@ -1327,7 +1327,7 @@ body {
 .bookspic {
     width: 20%; 
     height: 55%;
-    transform: translateX(44vh);
+    transform:translateX(210%);
 }
 
 
@@ -1376,7 +1376,7 @@ body {
 
 .withincontainer1 {
     position: relative;
-    top: 0vh;
+    top: 12vh;
 }
 
 .big-big-button:hover {
@@ -1456,9 +1456,8 @@ body {
     background-color: #edf4ff; 
     width: 50%;
     height: 100%;
-    float: right;
     position: absolute;
-    top: 27vh;
+    top: 12vh;
     left: 0;
     bottom: 0;
 }
@@ -1553,13 +1552,15 @@ input[type="file"] {
 
 .uploadnotespg2 {
     position: relative;
-    left: 50vh;
+    left: 23vw;
 }
 
 .withincontainer2 {
     position: relative;
     left: 15vh;
     top: 5vh;
+    box-sizing: border-box;
+
 }
 .subject {
     color:white;
@@ -1578,20 +1579,22 @@ input[type="file"] {
 }
 
 .left {
-    position: relative;
-    left: -5vh;
+    position: absolute;
+    left: -2vw;
 }
 
 .mid {
-    position: relative;
-    left: 60vh;
-    top: -26vh;
+    position: absolute;
+    left: 28vw;
+    top: 6vh;
 }
 
+
+
 .right {
-    position: relative;
+    position: absolute;
     left: 125vh;
-    top: -52vh;
+    top: ;
 }
 .popsubj {
     position: relative;
@@ -1622,20 +1625,24 @@ input[type="file"] {
 }
 
 .withincontainer4 {
-    position: relative;
-    left: 78vh;
+    position: absolute;
+    left: 37vw;
     top: 22vh;
     box-sizing: border-box;
+    width: 25vw;
+    height: 8vh;
+
 }
 
 .megacontainer1 {
     width: 100%;
     height: 100%;
     overflow: hidden !important;
+    
 }
 
 .searchbar {
-    width: 55vh;
+    width: 25vw;
     height: 8vh;
     border-radius: 5vh;
     border: none;
@@ -1644,6 +1651,8 @@ input[type="file"] {
     color:white;
     padding-left: 3vh;
     box-sizing: border-box;
+    position:absolute;
+    top: 4vh;
 }
 
 
@@ -1670,9 +1679,10 @@ html, body {
 
 .searchbarimg {
     height: 11vh;
-    position: relative;
-    left: -16.5vh;
-    top: 4.4vh;
+    position: absolute;
+    left: 17.65vw;
+    top: 2.2vh;
+    box-sizing: border-box;
 }
 
 .searchstudentimgbored {
@@ -1706,6 +1716,7 @@ html, body {
     border-bottom: 0.8vh solid #5875AC;
     z-index: 2;
     position:absolute;
+
 }
 
 
@@ -1714,9 +1725,10 @@ html, body {
     width: 38vh;
     height: 28vh;
     position: absolute;
-    top: -2.75vh;
-    left: 40vw;
+    top: -12.5%;
+    left: 40%;
 }
+
 
 
 
@@ -1738,19 +1750,19 @@ html, body {
     color:#C3C2BF;
     position:relative;
     top: -12vh;
-    left: 54vw;
+    left: 51vw;
 }
 
 .indiv-search-results .username-of-upvotes {
     color:#C3C2BF;
     position:relative;
     top: -12vh;
-    left: 43vw;
+    left: 40vw;
 }
 
 .indiv-search-results {
     background-color:#00205d;
-    width: 150vh;
+    width: 67vw;
     height: 18vh;
     border-radius: 0.6vh;
 }
@@ -1761,49 +1773,63 @@ html, body {
 }
 
 .search-results {
-    position:relative;
-    top: 23vh;
-    left: 31vh;
+    position:absolute;
+    top: 35vh;
+    left: 15vw;
 }
 
 .search-results-display {
     width: fit-content;
-    height: 45vh;
-    position:relative;
-    top:-2vh;
+    height: 50vh;
+    position:absolute;
+    top:8vh;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
+
+
+
+
 .nav-options {
     font-weight:bold;
     font-size: larger;
-    position: relative;
+    position: absolute;
     top:5vh;
-    left: 10vw;
+    left: 11vw;
+    height: fit-content;
+    width: fit-content;
 }
 
 .nav-inventory {
-    position: relative;
-    top:-7.5vh;
+    position: absolute;
+    top:0vh;
     left: 15vw;
+    width: fit-content;
+    height: fit-content;
 }
 
 .nav-profile {
-    position: relative;
-    left: 3vw;
+    position: absolute;
+    transform: translateX(10%);
+    width:fit-content;
+    height: fit-content;
 }
 
 .nav-notes {
-    position: relative;
-    top:-15vh;
+    position: absolute;
+    top:0vh;
     left: 55vw;
+    width:fit-content;
+    height: fit-content;
 }
 
 .nav-home {
-    position: relative;
-    top:-22.5vh;
+    position: absolute;
+    top:0vh;
     left: 67vw;
+    width:fit-content;
+    height: fit-content;
 }
 
 .nav-profile:hover {

@@ -238,6 +238,15 @@
     height: 8vh;
 }
 
+.dropdown:hover .dropbtnimage {
+    opacity: 0;
+  }
+
+.pointyimg {
+    height: 6vh;
+    z-index: 5;
+}
+
 .titles {
     font-family: Gameplay;
     font-size: 3.5vw;
@@ -1207,6 +1216,7 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 .dropdown-content {
@@ -1232,6 +1242,17 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.dropdown:hover .pointyimg {
+    opacity:1;
+}
+.pointyimg {
+    opacity: 0;
+    transition: 0s;
+    position:absolute;
+    top: -0.1vh;
+    left:0.2vw;
 }
 
 .scroll {

@@ -14,7 +14,7 @@
         <a class="navbuttons" href="the_team.html">Team</a>
 
         <!-- <a class="navbuttons" style="margin-left: auto;" href="loginpage.html">Login/Register</a> -->
-        <a class="navbuttons" style="margin-left: auto;">Login/Register</a>
+        <a class="navbuttons" style="margin-left: auto;" onclick="alertfail()">Login/Register</a>
 
         <div class="dropdown">
             <button class="dropbtn"><img class="dropbtnimage" id="forjsdropbtnimage" src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" onmouseover="changeImage()" onmouseout="backToOriginal()" onclick="whenclicked()"></button>
@@ -104,5 +104,11 @@
         </div>
     </div>
 </body>
+
+<script>
+    function alertfail() {
+        alert("Apologies - the main app isn't set up right now. Look for us on Instagram for more updates or to contact us for more info!");
+    }
+</script>
 
 </html>

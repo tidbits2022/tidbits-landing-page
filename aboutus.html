@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="static/css/style.css" rel="stylesheet">
-        <div class="navbar">
-            <img src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400" height=70px width=70px style="float: left;">
-            <a class="navbuttons" href="index.html">Home</a>
-            <a class="navbuttons" href="aboutus.html">About Us</a>
-            <a class="navbuttons" href="the_team.html">Team</a>
 
-            <div class="dropdown" style="float: right;">
-                <button class="dropbtn"><img src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" height="35px"></button>
-                <div class="dropdown-content">
-                    <a> Random link</a>
-                    <a> Random link</a>
-                </div>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidbits Homepage</title>
+    <link href="./static/css/style.css" rel="stylesheet">
+
+    <div class="navbar">
+        <img src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400" class="tidbitslogolp" alt="tidbits logo">
+        <a class="navbuttons" href="index.html">Home</a>
+        <a class="navbuttons" href="aboutus.html">About Us</a>
+        <a class="navbuttons" href="the_team.html">Team</a>
+
+        <a class="navbuttons" style="margin-left: auto;" href="loginpage.html">Login/Register</a>
+        <div class="dropdown">
+            <button class="dropbtn"><img class="dropbtnimage" id="forjsdropbtnimage" src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" onmouseover="changeImage()" onmouseout="backToOriginal()" onclick="whenclicked()"></button>
+            <div class="overlay">
+                <div class="pointy"><img class="pointyimg" src="https://drive.google.com/uc?export=view&id=1y66FuUOEUzsS5cMVY-m8wHdaY6lv8fgJ" alt="downward-icon"></div>
             </div>
-            <a class="navbuttons" style="float: right;">Login/Register</a>
+            <div class="dropdown-content" id="dropdown-content">
+                <!--replace randomlink.html when confirm later-->
+                <a href="randomlink.html"> Random link</a>
+                <a href="randomlink.html"> Random link</a>
+            </div>
         </div>
-    </head>
-    <body>
-        <div id="aboutuspara">
-            <p>We are a team of JC friends hoping to reignite the fun in learning. Having worked together on countless notes and materials, and having the interest in game development, we hope to further this project.</p>
-        <p> </p>
-        <p> </p>
-            <p>We are currently using ReactJS to launch an alpha version of the website with limited gamification. Afterwards, we will expand towards creating an interactive town-like game likely using 3js. Our long term plan is to establish an international community of students.</p>
+    </div>
+</head>
+
+<body>
+    <div class="aboutuspara">
+        <div class="item1aboutus">
+            <h1 class="titles" id="aboutustext">ABOUT US</h1>
+            <img src="https://lh3.googleusercontent.com/Y5vglKhQaK238htyawArddaz-pHPnheIb6e0cxoWeNt9Gq6G-mdyH4UW63JJljusbwI=w2400" class="studentpic" alt="student">
+            <p><a class="big-button" href="the_team.html">The Team</a></p>
         </div>
-        <div>
-            <h1 class="titles" style="padding-right: 550px;">ABOUT US</h1>
-            <img src="https://lh3.googleusercontent.com/Y5vglKhQaK238htyawArddaz-pHPnheIb6e0cxoWeNt9Gq6G-mdyH4UW63JJljusbwI=w2400" width=20% height=20% style="margin-left: 200px;" alt="student">
-            <p><a class="big-button" style="margin-left: 253px;" href="the_team.html">The Team</a></p>
+
+        <div class="item2aboutus">
+            <p class="item2description">We are a team of JC friends hoping to reignite the fun in learning. Having worked together on countless notes and materials, and having the interest in game development, we hope to further this project.</p>
+            <p class="item2description">We are currently using ReactJS to launch an alpha version of the website with limited gamification. Afterwards, we will expand towards creating an interactive town-like game likely using 3js. Our long term plan is to establish an international
+                community of students.</p>
         </div>
-    </body>
+    </div>
+</body>
+</div>
+
+<script src="LPaboutusjavascript.js"></script>
+
 </html>

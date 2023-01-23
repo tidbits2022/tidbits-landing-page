@@ -2,35 +2,46 @@
 <html>
 
 <head>
-    <link href="static/css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidbits Homepage</title>
+    <link href="./static/css/style.css" rel="stylesheet">
+
     <div class="navbar">
-        <img src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400" height=70px width=70px style="float: left;" alt="tidbit logo">
+        <img src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400" class="tidbitslogolp" alt="tidbits logo">
         <a class="navbuttons" href="index.html">Home</a>
         <a class="navbuttons" href="aboutus.html">About Us</a>
         <a class="navbuttons" href="the_team.html">Team</a>
 
-        <div class="dropdown" style="float: right;">
-            <button class="dropbtn"><img src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" height="35px"></button>
-            <div class="dropdown-content">
-                <a> Random link</a>
-                <a> Random link</a>
+        <a class="navbuttons" style="margin-left: auto;" href="loginpage.html">Login/Register</a>
+        <div class="dropdown">
+            <button class="dropbtn"><img class="dropbtnimage" id="forjsdropbtnimage" src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" onmouseover="changeImage()" onmouseout="backToOriginal()" onclick="whenclicked()"></button>
+            <div class="overlay">
+                <div class="pointy"><img class="pointyimg" src="https://drive.google.com/uc?export=view&id=1y66FuUOEUzsS5cMVY-m8wHdaY6lv8fgJ" alt="downward-icon"></div>
+            </div>
+            <div class="dropdown-content" id="dropdown-content">
+                <!--replace randomlink.html when confirm later-->
+                <a href="randomlink.html"> Random link</a>
+                <a href="randomlink.html"> Random link</a>
             </div>
         </div>
-        <a class="navbuttons" style="float: right;">Login/Register</a>
     </div>
 </head>
 
 <body>
-    <div class="leftbody">
-        <p class="titles" style="text-align: left;">Welcome to Tidbits!</p>
-        <p>We're an online gamified community for the sharing of student resources</p>
-        <a class="big-button" href="aboutus.html" style="margin-top: 26px;">About Us</a>
-    </div>
+    <div class="homepgbody">
+        <div class="item1homepage">
+            <p class="titleshomepage" style="text-align: left;">Welcome <br> to Tidbits!</p>
+            <p class="homepagedesc">We're an online gamified community for the sharing of student resources</p>
+            <a class="big-button-homepage" href="aboutus.html" style="margin-top: 2.2vw;">About Us</a>
+        </div>
 
-    <div class="rightbody">
-        <div id="bluebackg"></div>
-        <img src="https://lh6.googleusercontent.com/b5LFQ8Vej6ciZU-4e4DYokplP31vcuFbNQ3sFeOoHE61M_ntg1-Se6BbaLq4bm1Ppig=w2400" height=70% width=70% class="pizzaimage" alt="pizza slice">
+        <div class="item2homepage">
+            <!-- <p id="bluebackg"></p> -->
+            <img src="https://drive.google.com/uc?export=view&id=1i5246PmJUcSCR_DnXxrpRGoMlEihmi-8" class="pizzaimage" alt="pizza slice">
+            <!-- original link: https://lh6.googleusercontent.com/b5LFQ8Vej6ciZU-4e4DYokplP31vcuFbNQ3sFeOoHE61M_ntg1-Se6BbaLq4bm1Ppig=w2400 -->
+        </div>
     </div>
 </body>
+<script src="LPaboutusjavascript.js"></script>
 
 </html>

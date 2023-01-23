@@ -1120,7 +1120,7 @@ body {
 }
 
 .navbuttons:hover {
-    color: #5270a8;
+    background-color: #5270a8;
     transition: 0.2s;
 }
 

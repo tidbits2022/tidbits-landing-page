@@ -1,103 +1,106 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tidbits Homepage</title>
-        <link href="../static/css/style.css" rel="stylesheet">
 
-        <div class="navbar">
-            <img src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400" class="tidbitslogolp" alt="tidbits logo">
-            <a class="navbuttons" href="index.html">Home</a>
-            <a class="navbuttons" href="aboutus.html">About Us</a>
-            <a class="navbuttons" href="the_team.html">Team</a>
-        
-            <a class="navbuttons" style="margin-left: auto;" href="loginpage.html">Login/Register</a>
-            <div class="dropdown">
-                <button class="dropbtn"><img class="dropbtnimage" id="forjsdropbtnimage" src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" onmouseover="changeImage()" onmouseout="backToOriginal()" onclick="whenclicked()"></button>
-                <div class="overlay">
-                    <div class="pointy"><img class="pointyimg" src="https://drive.google.com/uc?export=view&id=1y66FuUOEUzsS5cMVY-m8wHdaY6lv8fgJ" alt="downward-icon"></div>
-                </div>
-                <div class="dropdown-content"id="dropdown-content">
-                    <!--replace randomlink.html when confirm later-->
-                    <a href="https://www.instagram.com/officiallytidbits/">Our Instagram</a>
-                    <a href="bit.ly/tidbits-mit-vid">MIT Solve Introductory Video</a>
-                </div>
-            </div>
-        </div>
-    </head>
-    
-    <body>
-        <h1 class="titlestheteam" style="margin-bottom: 8.5vw;">Meet the team</h1>
-        <div class="teamcol_three">
-            <div class="theteam">
-                <img src="https://lh5.googleusercontent.com/Q9y0kqSCvz4dmkuCu4k-SeWoCz3-o7II7ZoOhCzRYsdrsN_vLXZcJwfZsIA9CPcBV0w=w2400" class="teampic_three">
-                <p class="teamnames">Jingwen Chen</p>
-                <p class="teamroles">Head of Design</p>
-                <p class="bio_three">I love reading novels and doing graphic designs. I hate exercising.</p>
-            </div>
-            <div class="theteam">
-                <img src="https://drive.google.com/uc?export=view&id=1qnigY73jVi5tV4lXp4He-zXwybGilM5E" class="teampic_three">   
-                <p class="teamnames">Yik Ting Lam</p>
-                <p class="teamroles">Head of Development</p>
-                <p class="bio_three">Coder and a music lover. Artist of brilliant artworks you would never wna see.</p>
-            </div>
-            <div class="theteam">
-                <img src="https://drive.google.com/uc?export=view&id=1qk-AyvsJelanksydurmVKw_a4ZTGSjfI" class="teampic_three">
-                <p class="teamnames">Isaac Kok</p>
-                <p class="teamroles">Head of Publicity</p>
-                <p class="bio_three">Hi I'm Isaac. I do card tricks, listen to mandopop and my favourite artist is Joker Xue.</p>
-            </div>
-        </div>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidbits Homepage</title>
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/static/images/tb_circular_icon.ico">
 
-        <div class="teamcol_three">
-            <div class="theteam">
-                <img src="https://drive.google.com/uc?export=view&id=1KhShW55bzkyxuTBxtmscJY4Y0DFB7qZT" class="teampic_three">
-                <p class="teamnames">Anna Ni</p>
-                <p class="teamroles">Design</p>
-                <p class="bio_three">I love mango and listening to music. I also like learnin new things.</p>
-            </div>
-            <div class="theteam">
-                <img src="https://drive.google.com/uc?export=view&id=11qkxU3gW3zGULk7kxCjmQfpQe5WNwUIh" class="teampic_three">
-                <p class="teamnames">Elston Tan</p>
-                <p class="teamroles">Back-End Development</p>
-                <p class="bio_three">I'm passionate about AI, loves coding when not lazy. I also love going to the gym. My favourite hobby is sleeping.</p>
-            </div>
-            <div class="theteam">
-                <img src="https://drive.google.com/uc?export=view&id=1jtQRMAILVkJLWEBwr7Xyc3792JnEDCtB" class="teampic_three">
-                <p class="teamnames">Huixuan Wang</p>
-                <p class="teamroles">Front-End Development</p>
-                <p class="bio_three">Cat supremacist, believes pineapple does not belong pizza and loves acai. I'm a healthy person.</p>
-            </div>
-        </div>
+    <div class="navbar">
+        <img src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400" class="tidbitslogolp" alt="tidbits logo">
+        <a class="navbuttons" href="index.html">Home</a>
+        <a class="navbuttons" href="aboutus.html">About Us</a>
+        <a class="navbuttons" href="the_team.html">Team</a>
 
-        <div class="teamcol_two">
-            <div class="theteam" style="width: 43vw;">
-                <img src="https://drive.google.com/uc?export=view&id=1jSdQtH5w9w5yjRs5-oC3OdT3i-h2Bq7s" class="teampic_two">
-                <p class="teamnames">Ian Goh</p>
-                <p class="teamroles">Lead Developer</p>
-                <p class="bio_two">Has been coding since year 2. I love anime and get tired easily - basically lazy. My favourite cartoon is Teen Titans Go.</p>
+        <a class="navbuttons" style="margin-left: auto;" href="loginpage.html">Login/Register</a>
+        <div class="dropdown">
+            <button class="dropbtn"><img class="dropbtnimage" id="forjsdropbtnimage" src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" onmouseover="changeImage()" onmouseout="backToOriginal()" onclick="whenclicked()"></button>
+            <div class="overlay">
+                <div class="pointy"><img class="pointyimg" src="https://drive.google.com/uc?export=view&id=1y66FuUOEUzsS5cMVY-m8wHdaY6lv8fgJ" alt="downward-icon"></div>
             </div>
-            <div class="theteam" style="width: 43vw;">
-                <img src="https://drive.google.com/uc?export=view&id=1rtHZPD2LLjwB9cyBz0qm2kEuBrXdeWQo" class="teampic_two">
-                <p class="teamnames">Min Jia Tse</p>
-                <p class="teamroles">Design, Development</p>
-                <p class="bio_two">From infocomm and like to do Swift coding. Love to cook and watch kDramas or animal videos. I don't like lizzards and think cockroaches are better.</p>
+            <div class="dropdown-content" id="dropdown-content">
+                <!--replace randomlink.html when confirm later-->
+                <a href="https://www.instagram.com/officiallytidbits/">Our Instagram</a>
+                <a href="https://bit.ly/tidbits-mit-vid">MIT Solve Introductory Video</a>
             </div>
         </div>
+    </div>
+</head>
 
-        <div class="teamcol_two">
-            <div class="theteam" style="width: 43vw;">
-                <img src="https://drive.google.com/uc?export=view&id=1byDyFwtRUVsRNVchTGelhV8Q_qLcirP3" class="teampic_two">
-                <p class="teamnames">Steven Ren</p>
-                <p class="teamroles">Design, Development</p>
-                <p class="bio_two">I cannot do coding, likes drawing. I am for pineapples on pizza and I eat corn flakes dry. Extroverted most of the times.</p>
-            </div>
-            <div class="theteam" style="width: 43vw;">
-                <img src="https://drive.google.com/uc?export=view&id=1_z1QQYICOBKwlNnWL9H261ED8dStQyke" class="teampic_two">
-                <p class="teamnames">Yun Ling Lou</p>
-                <p class="teamroles">Front-End Development</p>
-                <p class="bio_two">I love cats! My favourite game is Stardew Valley. I've never gotton Covid-19 before.</p>
-            </div>
+<body>
+    <h1 class="titlestheteam" style="margin-bottom: 8.5vw;">Meet the team</h1>
+    <div class="teamcol_three">
+        <div class="theteam">
+            <img src="https://lh5.googleusercontent.com/Q9y0kqSCvz4dmkuCu4k-SeWoCz3-o7II7ZoOhCzRYsdrsN_vLXZcJwfZsIA9CPcBV0w=w2400" class="teampic_three">
+            <p class="teamnames">Jingwen Chen</p>
+            <p class="teamroles">Head of Design</p>
+            <p class="bio_three">I love reading novels and doing graphic designs. I hate exercising.</p>
         </div>
-    </body>
+        <div class="theteam">
+            <img src="https://drive.google.com/uc?export=view&id=1qnigY73jVi5tV4lXp4He-zXwybGilM5E" class="teampic_three">
+            <p class="teamnames">Yik Ting Lam</p>
+            <p class="teamroles">Head of Development</p>
+            <p class="bio_three">Coder and a music lover. Artist of brilliant artworks you would never wna see.</p>
+        </div>
+        <div class="theteam">
+            <img src="https://drive.google.com/uc?export=view&id=1qk-AyvsJelanksydurmVKw_a4ZTGSjfI" class="teampic_three">
+            <p class="teamnames">Isaac Kok</p>
+            <p class="teamroles">Head of Publicity</p>
+            <p class="bio_three">Hi I'm Isaac. I do card tricks, listen to mandopop and my favourite artist is Joker Xue.</p>
+        </div>
+    </div>
+
+    <div class="teamcol_three">
+        <div class="theteam">
+            <img src="https://drive.google.com/uc?export=view&id=1KhShW55bzkyxuTBxtmscJY4Y0DFB7qZT" class="teampic_three">
+            <p class="teamnames">Anna Ni</p>
+            <p class="teamroles">Design</p>
+            <p class="bio_three">I love mango and listening to music. I also like learnin new things.</p>
+        </div>
+        <div class="theteam">
+            <img src="https://drive.google.com/uc?export=view&id=11qkxU3gW3zGULk7kxCjmQfpQe5WNwUIh" class="teampic_three">
+            <p class="teamnames">Elston Tan</p>
+            <p class="teamroles">Back-End Development</p>
+            <p class="bio_three">I'm passionate about AI, loves coding when not lazy. I also love going to the gym. My favourite hobby is sleeping.</p>
+        </div>
+        <div class="theteam">
+            <img src="https://drive.google.com/uc?export=view&id=1jtQRMAILVkJLWEBwr7Xyc3792JnEDCtB" class="teampic_three">
+            <p class="teamnames">Huixuan Wang</p>
+            <p class="teamroles">Front-End Development</p>
+            <p class="bio_three">Cat supremacist, believes pineapple does not belong pizza and loves acai. I'm a healthy person.</p>
+        </div>
+    </div>
+
+    <div class="teamcol_two">
+        <div class="theteam" style="width: 43vw;">
+            <img src="https://drive.google.com/uc?export=view&id=1jSdQtH5w9w5yjRs5-oC3OdT3i-h2Bq7s" class="teampic_two">
+            <p class="teamnames">Ian Goh</p>
+            <p class="teamroles">Lead Developer</p>
+            <p class="bio_two">Has been coding since year 2. I love anime and get tired easily - basically lazy. My favourite cartoon is Teen Titans Go.</p>
+        </div>
+        <div class="theteam" style="width: 43vw;">
+            <img src="https://drive.google.com/uc?export=view&id=1rtHZPD2LLjwB9cyBz0qm2kEuBrXdeWQo" class="teampic_two">
+            <p class="teamnames">Min Jia Tse</p>
+            <p class="teamroles">Design, Development</p>
+            <p class="bio_two">From infocomm and like to do Swift coding. Love to cook and watch kDramas or animal videos. I don't like lizzards and think cockroaches are better.</p>
+        </div>
+    </div>
+
+    <div class="teamcol_two">
+        <div class="theteam" style="width: 43vw;">
+            <img src="https://drive.google.com/uc?export=view&id=1byDyFwtRUVsRNVchTGelhV8Q_qLcirP3" class="teampic_two">
+            <p class="teamnames">Steven Ren</p>
+            <p class="teamroles">Design, Development</p>
+            <p class="bio_two">I cannot do coding, likes drawing. I am for pineapples on pizza and I eat corn flakes dry. Extroverted most of the times.</p>
+        </div>
+        <div class="theteam" style="width: 43vw;">
+            <img src="https://drive.google.com/uc?export=view&id=1_z1QQYICOBKwlNnWL9H261ED8dStQyke" class="teampic_two">
+            <p class="teamnames">Yun Ling Lou</p>
+            <p class="teamroles">Front-End Development</p>
+            <p class="bio_two">I love cats! My favourite game is Stardew Valley. I've never gotton Covid-19 before.</p>
+        </div>
+    </div>
+</body>
+
 </html>

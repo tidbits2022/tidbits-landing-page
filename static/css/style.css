@@ -296,7 +296,6 @@
     align-items: center;
     position: sticky;
     z-index: 1;
-    margin-top: 3%;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -347,6 +346,16 @@
 .teamcol_two {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 3.4vw;
+    text-align: center;
+    margin-top: 3.4vw;
+}
+
+.teamcol_one {
+    display: none;
+    grid-template-columns: auto;
     justify-content: center;
     align-items: start;
     margin-bottom: 3.4vw;
@@ -545,7 +554,6 @@
         align-items: center;
         position: sticky;
         z-index: 1;
-        margin-top: 3%;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -870,7 +878,6 @@
         align-items: center;
         position: sticky;
         z-index: 1;
-        margin-top: 3%;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -968,64 +975,40 @@
     }
     /* Canvas: Page 4 - LP3 (the_team.html) */
     .titlestheteam {
-        font-family: "Gameplay";
-        font-size: 6.5vw;
-        color: #112242;
-        text-align: center;
-        margin-top: 6vw;
+        font-size: 8.5vw;
     }
     .teamcol_three {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        justify-content: center;
-        align-items: start;
-        margin-bottom: 3.4vw;
-        text-align: center;
-        margin-top: 3.4vw;
+        display: none;
     }
     .teamcol_two {
+        display: none;
+    }
+    .teamcol_one {
         display: grid;
-        grid-template-columns: auto auto;
-        justify-content: center;
-        align-items: start;
-        margin-bottom: 3.4vw;
-        text-align: center;
-        margin-top: 3.4vw;
     }
     .teampic_three {
-        width: 20vw;
-        height: 20vw;
+        width: 45vw;
+        height: 45vw;
     }
     .teampic_two {
-        width: 20vw;
-        height: 20vw;
+        width: 45vw;
+        height: 45vw;
     }
     .teamnames {
-        font-size: 4.5vw;
-        color: #112242;
-        text-align: center;
-        margin: 2.5vw 0 0 0;
+        font-size: 7vw;
     }
     .teamroles {
-        font-family: "VT323-Regular";
-        font-size: 3.6vw;
-        color: #112242;
-        text-align: center;
-        margin: 0;
+        font-size: 5.3vw;
     }
     .bio_three {
-        font-size: 3.4vw;
-        text-align: justify;
-        text-align-last: center;
-        padding-left: 3.4vw;
-        padding-right: 3.4vw;
+        font-size: 6vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
     .bio_two {
-        font-size: 3.4vw;
-        text-align: justify;
-        text-align-last: center;
-        padding-left: 3.4vw;
-        padding-right: 3.4vw;
+        font-size: 6vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 }
 

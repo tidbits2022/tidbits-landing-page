@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tidbits Homepage</title>
-    <link href="/static/css/style.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/static/images/tb_circular_icon.ico">
+    <link href="../static/css/style.css" rel="stylesheet" />
 
     <div class="navbar">
-        <img src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400" class="tidbitslogolp" alt="tidbits logo">
-        <p><a class="navbuttons" href="index.html">Home</a></p>
-        <p><a class="navbuttons" href="aboutus.html">About Us</a></p>
-        <p><a class="navbuttons" href="the_team.html">Team</a></p>
+      <img
+        src="https://lh4.googleusercontent.com/L83j1rXXGC1Rd_GncMMxonDHWcbL2itCveV13nvx857bai1iBEXAag772hG7-yMwtNk=w2400"
+        class="tidbitslogolp"
+        alt="tidbits logo"
+      />
+      <a class="navbuttons" href="homepage.html">Home</a>
+      <a class="navbuttons" href="aboutus.html">About Us</a>
+      <a class="navbuttons" href="the_team.html">Team</a>
 
-        <!-- <a class="navbuttons" style="margin-left: auto;" href="loginpage.html">Login/Register</a> -->
-        <a class="navbuttons" style="margin-left: auto;" onclick="alertfail()">Login/Register</a>
-
-        <div class="dropdown">
-            <button class="dropbtn"><img class="dropbtnimage" id="forjsdropbtnimage" src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png" onmouseover="changeImage()" onmouseout="backToOriginal()" onclick="whenclicked()"></button>
-            <div class="overlay">
-                <div class="pointy"><img class="pointyimg" src="https://drive.google.com/uc?export=view&id=1y66FuUOEUzsS5cMVY-m8wHdaY6lv8fgJ" alt="downward-icon"></div>
-            </div>
-            <div class="dropdown-content" id="dropdown-content">
-                <!--replace randomlink.html when confirm later-->
-                <a href="https://www.instagram.com/officiallytidbits/">Our Instagram</a>
-                <a href="mailto:tidbits-dhs@dhs.sg">Email Us</a>
-                <a href="https://bit.ly/tidbits-mit-vid">MIT Solve Introductory Video</a>
-            </div>
+      <a class="navbuttons" style="margin-left: auto;" href="loginpage.html"
+        >Login/Register</a
+      >
+      <div class="dropdown">
+        <button class="dropbtn">
+          <img
+            class="dropbtnimage"
+            id="forjsdropbtnimage"
+            src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/menu-512.png"
+            onmouseover="changeImage()"
+            onmouseout="backToOriginal()"
+            onclick="whenclicked()"
+          />
+        </button>
+        <div class="overlay">
+          <div class="pointy">
+            <img
+              class="pointyimg"
+              src="https://drive.google.com/uc?export=view&id=1y66FuUOEUzsS5cMVY-m8wHdaY6lv8fgJ"
+              alt="downward-icon"
+            />
+          </div>
         </div>
+        <div class="dropdown-content" id="dropdown-content">
+          <!--replace randomlink.html when confirm later-->
+          <a href="randomlink.html"> Random link</a>
+          <a href="randomlink.html"> Random link</a>
+        </div>
+      </div>
     </div>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="homepgbody">
       <div class="item1homepage">
         <p class="titleshomepage" style="text-align: left;">
@@ -62,12 +78,6 @@
       </div>
     </div>
   </body>
-<script src="LPaboutusjavascript.js"></script>
-
-<script>
-    function alertfail() {
-        alert("Apologies - the main app isn't set up right now. Look for us on Instagram for more updates or to contact us for more info!");
-    }
-</script>
-
+  <script src="LPaboutusjavascript.js"></script>
 </html>
+

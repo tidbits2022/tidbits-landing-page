@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tidbits Homepage</title>
     <link href="../static/css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/static/images/tb_circular_icon.ico">
+
 
     <div class="navbar">
       <img
@@ -11,13 +13,13 @@
         class="tidbitslogolp"
         alt="tidbits logo"
       />
-      <a class="navbuttons" href="homepage.html">Home</a>
-      <a class="navbuttons" href="aboutus.html">About Us</a>
-      <a class="navbuttons" href="the_team.html">Team</a>
+        <p><a class="navbuttons" href="index.html">Home</a></p>
+        <p><a class="navbuttons" href="aboutus.html">About Us</a></p>
+        <p><a class="navbuttons" href="the_team.html">Team</a></p>
 
-      <a class="navbuttons" style="margin-left: auto;" href="loginpage.html"
-        >Login/Register</a
-      >
+              <!-- <a class="navbuttons" style="margin-left: auto;" href="loginpage.html">Login/Register</a> -->
+      <a class="navbuttons" style="margin-left: auto;" onclick="alertfail()">Login/Register</a>
+      
       <div class="dropdown">
         <button class="dropbtn">
           <img
@@ -39,9 +41,9 @@
           </div>
         </div>
         <div class="dropdown-content" id="dropdown-content">
-          <!--replace randomlink.html when confirm later-->
-          <a href="randomlink.html"> Random link</a>
-          <a href="randomlink.html"> Random link</a>
+          <a href="https://www.instagram.com/officiallytidbits/">Our Instagram</a>
+          <a href="mailto:tidbits-dhs@dhs.sg">Email Us</a>
+          <a href="https://bit.ly/tidbits-mit-vid">MIT Solve Introductory Video</a>
         </div>
       </div>
     </div>
@@ -79,5 +81,10 @@
     </div>
   </body>
   <script src="LPaboutusjavascript.js"></script>
-</html>
+  <script>
+    function alertfail() {
+        alert("Apologies - the main app isn't set up right now. Look for us on Instagram for more updates or to contact us for more info!");
+    }
+</script>
 
+</html>

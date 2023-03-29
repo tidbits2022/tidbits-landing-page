@@ -133,7 +133,11 @@
   padding: 0.9vw 2.1vw;
   justify-self: center;
   margin-left: 0%;
-  float: left;
+}
+
+.big-button-homepage:hover {
+  background-color: #5270a8;
+  transition: 0.2s;
 }
 
 .homepagedesc {
@@ -355,7 +359,7 @@
   align-items: center;
   position: sticky;
   z-index: 1;
-  margin-top: 3%;
+  margin-top: 0%;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -376,6 +380,7 @@
   color: #00205d;
   padding: 1vw 1.3vw;
   text-decoration: none;
+  text-align: center;
   display: block;
   left: auto !important;
   right: 0 !important;
@@ -410,6 +415,15 @@
   margin-bottom: 3.4vw;
   text-align: center;
   margin-top: 3.4vw;
+}
+
+.teamcol_one {
+  display: none;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+  margin: 3.4vw 10vw 3.4vw 10vw;
 }
 
 .teampic_three {
@@ -624,7 +638,6 @@
     align-items: center;
     position: sticky;
     z-index: 1;
-    margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -989,7 +1002,7 @@
     align-items: center;
     position: sticky;
     z-index: 1;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -1118,37 +1131,29 @@
   }
 
   .teamcol_three {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    align-items: start;
-    margin-bottom: 3.4vw;
-    text-align: center;
-    margin-top: 3.4vw;
+    display: none;
   }
 
   .teamcol_two {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    align-items: start;
-    margin-bottom: 3.4vw;
-    text-align: center;
-    margin-top: 3.4vw;
+    display: none;
   }
 
+  .teamcol_one {
+    display: block;
+}
+
   .teampic_three {
-    width: 20vw;
-    height: 20vw;
+    width: 35vw;
+    height: 35vw;
   }
 
   .teampic_two {
-    width: 20vw;
-    height: 20vw;
+    width: 35vw;
+    height: 35vw;
   }
 
   .teamnames {
-    font-size: 4.5vw;
+    font-size: 5vw;
     color: #112242;
     text-align: center;
     margin: 2.5vw 0 0 0;
@@ -1156,14 +1161,14 @@
 
   .teamroles {
     font-family: "VT323-Regular";
-    font-size: 3.6vw;
+    font-size: 4vw;
     color: #112242;
     text-align: center;
     margin: 0;
   }
 
   .bio_three {
-    font-size: 3.4vw;
+    font-size: 3.8vw;
     text-align: justify;
     text-align-last: center;
     padding-left: 3.4vw;
@@ -1171,11 +1176,16 @@
   }
 
   .bio_two {
-    font-size: 3.4vw;
+    font-size: 3.8vw;
     text-align: justify;
     text-align-last: center;
     padding-left: 3.4vw;
     padding-right: 3.4vw;
+  }
+
+  .dropdown-content a{
+    height: fit-content;
+    padding: 4vw 2vw;
   }
 }
 
